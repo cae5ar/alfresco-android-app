@@ -21,11 +21,10 @@
 package org.alfresco.mobile.android.application.activity;
 
 import org.alfresco.mobile.android.application.R;
-import org.alfresco.mobile.android.application.fragments.FragmentDisplayer;
 import org.alfresco.mobile.android.application.fragments.about.AboutFragment;
+import org.alfresco.mobile.android.application.fragments.signin.AccountCredentialsFragment;
 import org.alfresco.mobile.android.application.fragments.signin.AccountOAuthFragment;
 import org.alfresco.mobile.android.application.fragments.signin.AccountServerFragment;
-import org.alfresco.mobile.android.application.fragments.signin.WelcomeFragment;
 import org.alfresco.mobile.android.platform.intent.PrivateIntent;
 import org.alfresco.mobile.android.platform.utils.BundleUtils;
 import org.alfresco.mobile.android.platform.utils.ConnectivityUtils;
@@ -61,11 +60,11 @@ public class WelcomeActivity extends BaseActivity
             isCreation = BundleUtils.getBoolean(getIntent().getExtras(), EXTRA_ADD_ACCOUNT);
         }
 
-        if (getSupportFragmentManager().findFragmentByTag(WelcomeFragment.TAG) == null)
+        if (getSupportFragmentManager().findFragmentByTag(AccountCredentialsFragment.TAG) == null)
         {
-            FragmentDisplayer.with(this)
-                    .load(WelcomeFragment.with(this).addExtra(getIntent().getExtras()).createFragment()).animate(null)
-                    .back(false).into(FragmentDisplayer.PANEL_LEFT);
+            AccountCredentialsFragment.with(this)
+                    .hostname(getResources().getString(R.string.ga_alfrescoUrl))
+                    .back(false).displayNoAnimated();
         }
 
         findViewById(R.id.signin_more_information).setOnClickListener(new View.OnClickListener()

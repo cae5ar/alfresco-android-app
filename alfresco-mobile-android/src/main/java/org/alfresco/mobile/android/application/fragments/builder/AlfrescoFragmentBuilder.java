@@ -280,6 +280,12 @@ public abstract class AlfrescoFragmentBuilder
         FragmentDisplayer.load(this).into(FragmentDisplayer.PANEL_LEFT);
     }
 
+    public void displayNoAnimated()
+    {
+        // Display Fragment
+        FragmentDisplayer.load(this).animate(null).into(FragmentDisplayer.PANEL_LEFT);
+    }
+
     public void display(int viewId)
     {
         // Display Fragment
