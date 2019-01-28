@@ -24,23 +24,27 @@
     <!-- ************************** -->
     <!-- Relative Date -->
     <string name="relative_date_just_now">Только что</string>
-    <string name="relative_date_less_than_a_minute_ago">менее мнуты назад</string>
+    <string name="relative_date_less_than_a_minute_ago">менее минуты назад</string>
 
     <plurals name="relative_date_minutes_ago">
-        <item quantity="one">%1$s минуты тому назад</item>
-        <item quantity="other">%1$s минут тому назад</item>
+        <item quantity="one">%1$s минуту тому назад</item>
+        <item quantity="few">%1$s минуты тому назад</item>
+        <item quantity="many">%1$s минут тому назад</item>
     </plurals>
     <plurals name="relative_date_hours_ago">
-        <item quantity="one">%1$s часа тому назад</item>
-        <item quantity="other">%1$s часов тому назад</item>
+        <item quantity="one">%1$s час тому назад</item>
+        <item quantity="few">%1$s часа тому назад</item>
+        <item quantity="many">%1$s часов тому назад</item>
     </plurals>
     <plurals name="relative_date_days_ago">
-        <item quantity="one">%1$s дня тому назад</item>
-        <item quantity="other">%1$s дней тому назад</item>
+        <item quantity="one">%1$s день тому назад</item>
+        <item quantity="few">%1$s дня тому назад</item>
+        <item quantity="many">%1$s дней тому назад</item>
     </plurals>
     <plurals name="relative_date_years_ago">
         <item quantity="one">%1$s год тому назад</item>
-        <item quantity="other">%1$s лет тому назад</item>
+        <item quantity="few">%1$s года тому назад</item>
+        <item quantity="many">%1$s лет тому назад</item>
     </plurals>
 
     <!-- ************************** -->
@@ -117,6 +121,7 @@
     <string name="activity_role_SiteConsumer">Менеджер</string>
     <string name="activity_role_SiteManager">Коллаборационист</string>
     <string name="activity_role_SiteCollaborator">Участник</string>
+    <string name="activity_role_SiteContributor">Контрибьютор</string>
     <!-- Metadata -->
     <string name="metadata">Свойства</string>
     <string name="thumbnail">Эскизы</string>
@@ -253,209 +258,203 @@
     <string name="retry_account_loading">Повторить попытку</string>
     <string name="error_session_creation_title">Сохранить аккаунт</string>
     <string name="error_session_creation_message">Ошибка подключения</string>
-    <string name="error_session_creation">Unable to authenticate. Check your account settings.</string>
-    <string name="error_session_hostname_short">Your <b>connect to</b> URL isn\'t right.</string>
-    <string name="error_session_hostname"><![CDATA[Your <b>connect to</b> URL seems isn\'t right or you may need to <b>activate your VPN</b>.<br/> Check your values and settings.]]></string>
-    <string name="error_session_nodata_short">Your device has no data connection.</string>
-    <string name="error_session_nodata"><![CDATA[<p><b>Your device has no data connection.</b><br/></p> Check your device settings and enable a data connection.]]></string>
-    <string name="error_session_unauthorized"><![CDATA[You\'re not allowed to access this server.<br/> Check your account settings <b>(Username/Password)</b>.]]></string>
-    <string name="error_session_service_url"><![CDATA[Your <b>service url</b> value is incorrect.<br/> Check your account settings.]]></string>
-    <string name="error_session_service_unavailable"><![CDATA[The server has temporary maintenance downtime or capacity problems.<br/> Try again later.]]></string>
-    <string name="error_session_notfound"><![CDATA[Your server couldn\'t be reached.<br/> Check your account settings.]]></string>
-    <string name="error_session_port"><![CDATA[Your <b>port</b> value is incorrect.<br/> Check your account settings.]]></string>
+    <string name="error_session_creation">Не удалось авторизоваться. Проверьте настройки учетной записи.</string>
+    <string name="error_session_hostname_short">Не удалось подключится к серверу.</string>
+    <string name="error_session_hostname"><![CDATA[Не удалось подключится к серверу.  Возможно на вашем устройстве включен VPN. Проверьте настройки приложения и учетные данные]]></string>
+    <string name="error_session_nodata_short">Проверьте ваше подключение к интернету.</string>
+    <string name="error_session_nodata"><![CDATA[<p><b>Проверьте ваше подключение к интернету.</b><br/></p> Проверьте настройки интернета вашего устройства.]]></string>
+    <string name="error_session_unauthorized"><![CDATA[Не удалось авторизоваться на этом сервере.<br/> Проверьте настройки учетной записи <b>(Логин/Пароль/b>.]]></string>
+    <string name="error_session_service_url"><![CDATA[Путь к серверу не корректен проверьте URL в настройках приложения.]]></string>
+    <string name="error_session_service_unavailable"><![CDATA[Сервер пока не принимает запросы,попробуйте позднее.]]></string>
+    <string name="error_session_notfound"><![CDATA[Сервер недоступен.<br/>Проверьте настройки.]]></string>
+    <string name="error_session_port"><![CDATA[Порт указан не верно. Проверьте настройки.]]></string>
     <string name="error_session_certificate">
-<![CDATA[<p><b>The server\'s security certificate is not trusted!</b><br/></p>
-		The third-party organization that issued your server destination\'s certificate is not one that your device recognizes.<br/>
-		To verify that you\'re connecting with the appropriate server, its certificate must be from a trusted organization.<br/>
-		If your server has a self-signed certificate then add it to your device to successfully connect.<br/> ]]>
+<![CDATA[<p><b>Сертификат для подключения к серверу не валиден.<br/> ]]>
     </string>
     <string name="error_session_certificate_expired">
-<![CDATA[<p><b>The servers security certificate has expired or isn\'t valid yet.</b><br/></p>
-		heck the date and time your device is set to.<br/> If the issue continues contact your IT Team. ]]>
+<![CDATA[<p><b>Сертфикат на сервере не валиден или просрочен. Обратитесь к тех. поддержку ]]>
     </string>
     <string name="error_session_ssl">
-<![CDATA[<p><b>There was an issue with the SSL protocol.</b><br/></p>
-        Check your account settings and try again.<br/> If the issue continues contact your IT Team.]]>
+<![CDATA[<p><b>Возникла ошибка при попытке создать SSL соединение.]]>
     </string>
     <string name="error_session_cloud_unavailable">
-<![CDATA[<p><b>Content Services in the Cloud is under heavy load right now.</b><br/></p>
-        Try again in a few minutes.<br/>]]>
+<![CDATA[<p><b>Content Services in the Cloud перегружен, попробуйте позднее.<br/>]]>
     </string>
-    <string name="error_session_expired">Your session has expired. Sign in to continue.</string>
-    <string name="error_session_expired_document_provider">"Alfresco Session expired: log back in to open a file."</string>
-    <string name="error_session_refresh">Refreshing session.</string>
+    <string name="error_session_expired">Сессия закончена. Авторизуйтесь для продолжения.</string>
+    <string name="error_session_expired_document_provider">"Сессия закончена. Авторизуйтесь чтобы открыть файл."</string>
+    <string name="error_session_refresh">Обновление сессии.</string>
     <string name="error_chunk_transfert"><![CDATA[The server doesn\'t support chunk transfers.<br/> Reload your account</b>.]]></string>
 
-    <string name="error_account_url">The URL is incorrect. Check your account settings.</string>
-    <string name="error_unknown_filepath">Couldn\'t find the resource.</string>
-    <string name="error_name_already_exist">Couldn\'t rename file. Another file may exist with the same name.</string>
-    <string name="error_unknown_exception">An error occurred : %s</string>
-    <string name="error_unknown">An error occurred : %s</string>
+    <string name="error_account_url">Не правильный URL. Проверьте настройки учетной записи.</string>
+    <string name="error_unknown_filepath">Ресурс не найден.</string>
+    <string name="error_name_already_exist">Не удалось переименовать файл. Возможно уже есть файл с таким же именем.</string>
+    <string name="error_unknown_exception">Возникла ошибка : %s</string>
+    <string name="error_unknown">Возникла ошибка : %s</string>
 
     <!-- Share -->
-    <string name="share_url">Share Link</string>
-    <string name="share_content">Share Content</string>
-    <string name="share_url_long">Sharing Link from Alfresco Content Services</string>
-    <string name="validate">Validate</string>
+    <string name="share_url">Поделиться ссылкой</string>
+    <string name="share_content">Поделиться ссылкой</string>
+    <string name="share_url_long">Поделится ссылкой из Alfresco Content Services</string>
+    <string name="validate">Проверка</string>
 
     <!-- SSL -->
-    <string name="security_ssl_disable">SSL certificate validation has been turned off.</string>
+    <string name="security_ssl_disable">Проверка SSL сертификата была отключена.</string>
 
     <!-- ACCOUNT -->
-    <string name="account_verify">Verifying Account Information&#8230;</string>
-    <string name="account_wizard_alldone_description">Your account is ready for you to use.</string>
+    <string name="account_verify">Верификация информации об аккаунте…</string>
+    <string name="account_wizard_alldone_description">Ваш аккаунт готов к использованию.</string>
     <string name="account_default_onpremise">Content Services</string>
     <string name="account_default_cloud">Content Services in the Cloud</string>
 
     <!-- WAITING SESSION -->
-    <string name="wait_title">Please wait</string>
-    <string name="wait_message">Contacting your server&#8230;</string>
-    <string name="session_loaded">Session ready</string>
+    <string name="wait_title">Пожалуста подождите</string>
+    <string name="wait_message">Содединеие с сервером…</string>
+    <string name="session_loaded">Сессия готова</string>
 
     <!-- Creation Folder -->
-    <string name="create_folder_in_progress">Create folder in progress</string>
-    <string name="create_folder_complete">Create folder complete</string>
+    <string name="create_folder_in_progress">Создание папки</string>
+    <string name="create_folder_complete">Папка создана</string>
 
     <!-- Workflow FILTERS -->
-    <string name="empty_tasks">No Tasks</string>
-    <string name="tasks_assignee_unassigned">Unassigned</string>
-    <string name="task_delegate_in_progress">Reassign in progress&#8230;</string>
-    <string name="task_delegate_complete">Reassign completed</string>
-    <string name="update_sucess">\"%s\" has been updated successfully.</string>
+    <string name="empty_tasks">Нет спасибо</string>
+    <string name="tasks_assignee_unassigned">Не подписано</string>
+    <string name="task_delegate_in_progress">Переназначение…</string>
+    <string name="task_delegate_complete">Переназначено</string>
+    <string name="update_sucess">\"%s\" успешно обновлено.</string>
 
     <!-- Delete -->
-    <string name="delete_in_progress">Delete in progress&#8230;</string>
-    <string name="delete_complete">Delete complete</string>
+    <string name="delete_in_progress">Удаление…</string>
+    <string name="delete_complete">Удалено</string>
 
     <!-- Quick Action Folder -->
-    <string name="like_in_progress">"Like" in progress</string>
-    <string name="like_completed">Like completed</string>
-    <string name="like_complete">Like complete</string>
+    <string name="like_in_progress">Добавление в избранное</string>
+    <string name="like_completed">Добавлено в избранное</string>
+    <string name="like_complete">В избранном</string>
 
     <!-- MEMBERS -->
-    <string name="members">List of Members</string>
-    <string name="members_of">Members of %s</string>
+    <string name="members">Список участников</string>
+    <string name="members_of">Участинк %s</string>
 
     <!-- MAIN MENU -->
-    <string name="menu_browse_userhome">My Files</string>
-    <string name="menu_browse_shared">Shared Files</string>
+    <string name="menu_browse_userhome">Мои файлы</string>
+    <string name="menu_browse_shared">ОБщие файлы</string>
 
     <!-- Accessibility -->
-    <string name="mime_folder">Folder</string>
-    <string name="mime_document">File</string>
-    <string name="more_options_folder">More options for folder %s</string>
-    <string name="more_options_favorite">More options for %s</string>
-    <string name="mime_site">Site</string>
-    <string name="more_options_site">More options for site %s</string>
-    <string name="navigation_drawer_description">Content Services: Open Home panel</string>
-    <string name="metadata_modified">Modified </string>
-    <string name="metadata_created_by">Created by %s</string>
-    <string name="metadata_size">Size </string>
-    <string name="contact_card">Open contact card for %s </string>
-    <string name="add_comment">Send a comment</string>
-    <string name="advanced_search_hint">Advanced Search</string>
-    <string name="add_menu">Add to this folder</string>
+    <string name="mime_folder">Папка</string>
+    <string name="mime_document">Файл</string>
+    <string name="more_options_folder">Больше опций для папки %s</string>
+    <string name="more_options_favorite">Больше опций для  %s</string>
+    <string name="mime_site">Сайт</string>
+    <string name="more_options_site">Больше опций для сайта %s</string>
+    <string name="navigation_drawer_description">Content Services: Перейти на домашнюю</string>
+    <string name="metadata_modified">Обновлено </string>
+    <string name="metadata_created_by">Создал %s</string>
+    <string name="metadata_size">Размер </string>
+    <string name="contact_card">Открыть карточку %s </string>
+    <string name="add_comment">Оставить комментарий</string>
+    <string name="advanced_search_hint"> Продвинутый поиск</string>
+    <string name="add_menu">Добавить в эту папку</string>
 
     <!-- Site Membership Request -->
-    <string name="empty_joinsiterequest">No Pending requests</string>
+    <string name="empty_joinsiterequest">Нет ожидающих запросов</string>
 
     <!-- Update Properties -->
-    <string name="filename_error_character">Name not valid, use different characters.</string>
+    <string name="filename_error_character">Имя некорректно, воспользуйтесь другими символами.</string>
 
     <!-- NETWORKS -->
-    <string name="cloud_networks_empty">No networks available</string>
-    <string name="manage_accounts">Manage accounts&#8230;</string>
-    <string name="cloud_networks_switch">Switch networks&#8230;</string>
+    <string name="cloud_networks_empty">Сеть недоступна</string>
+    <string name="manage_accounts">Управление учетными записями&#8230;</string>
+    <string name="cloud_networks_switch">Смена сети…</string>
 
     <!-- PROFILES -->
-    <string name="profiles_empty">No profiles available</string>
-    <string name="manage_profiles">Manage profiles&#8230;</string>
-    <string name="profiles_switch">Switch profiles&#8230;</string>
+    <string name="profiles_empty">Нет доступных профилей</string>
+    <string name="manage_profiles">Управление профилями…</string>
+    <string name="profiles_switch">Смена профиля…</string>
 
     <!-- WORKFLOW -->
-    <string name="empty_process_definition">No Process</string>
-    <string name="my_tasks">My Tasks</string>
+    <string name="empty_process_definition">Нет процессов</string>
+    <string name="my_tasks">Мои задачи</string>
 
     <!-- BUG REPORT -->
-    <string name="bug_report_title">[Bug Report] : </string>
-    <string name="waiting_operations">Please wait&#8230;</string>
+    <string name="bug_report_title">[Отчет об ошибке] : </string>
+    <string name="waiting_operations">Пожалйуста подождите…</string>
 
     <!-- Favorites -->
-    <string name="menu_favorites_folder">Favorite Folders</string>
-    <string name="menu_favorites">Favorites</string>
-    <string name="synced_content">Synced Content</string>
-    <string name="empty_favorites">No Favorites</string>
-    <string name="favorites_document">Favorite</string>
+    <string name="menu_favorites_folder">Избранные папки</string>
+    <string name="menu_favorites">Избранное</string>
+    <string name="synced_content">Синхронизированное</string>
+    <string name="empty_favorites">Нет избранного</string>
+    <string name="favorites_document">Избранное</string>
     <string name="error_retrieve_favorite">Favorite info for this content couldn\'t be retrieved.</string>
-    <string name="favorites_activate">Sync content for \"%s\"</string>
-    <string name="favorites_activate_description">Do you want to automatically keep your favorite content in sync with this device?</string>
-    <string name="favorites_deactivate">Turn off Sync</string>
-    <string name="favorites_deactivate_description"><![CDATA[<p>Do you want to turn off sync?</p> All synced content will be deleted from your device.]]></string>
-    <string name="sync_error_title">Sync Errors</string>
-    <string name="sync_error_node_unfavorited"><![CDATA[<p>You\'ve unfavorited <b>%s</b> since you started editing it. <br/> <b>Sync</b> your edited version to the server or <b>Save</b> it to your \"Downloads\" folder. </p>]]></string>
-    <string name="sync_error_node_deleted"><![CDATA[<p> <b>%s</b> has been deleted on the server but a copy has been saved in your \"Downloads\" folder.</p>]]></string>
-    <string name="sync_error_no_permission"><![CDATA[<p> You don\'t have the required permission to upload your edited version of <b>%s</b>. You can <b>Save</b> it to your \"Downloads\" folder, or <b>Overwrite</b> it with the server version which will discard your edits.]]></string>
-    <string name="sync_error_node_local_modification">Sync Errors</string>
-    <string name="sync_action">Sync</string>
-    <string name="sync_override_action">Overwrite</string>
-    <string name="sync_save_action">Save</string>
-    <string name="sync_resolve_conflict">Resolve conflict</string>
-    <string name="sync_complete">Sync completed</string>
-    <string name="sync_in_progress">Sync in progress&#8230;</string>
-    <string name="upload_await">Waiting to upload&#8230;</string>
-    <string name="download_await">Waiting to download&#8230;</string>
-    <string name="sync_favorites">Favorites</string>
+    <string name="favorites_activate">Синхронизация \"%s\"</string>
+    <string name="favorites_activate_description">Включить автоматическую синхронизацию для избранных файлов на вашем устройстве?</string>
+    <string name="favorites_deactivate">Выключить синхронизацию</string>
+    <string name="favorites_deactivate_description"><![CDATA[<p>Выключить синхронизацию?</p> Весь синхронизированный контент будет удален.]]></string>
+    <string name="sync_error_title">Ошибки синхронизации</string>
+    <string name="sync_error_node_unfavorited"><![CDATA[<p>ВЫ убрали из избранного<b>%s</b> в тот момент как начали еего редактировать. <br/> <b>Синхронизируйте</b> вашу версию файла с сервеорм или <b>Сохраните</b> файл в папку \"Загрузки\". </p>]]></string>
+    <string name="sync_error_node_deleted"><![CDATA[<p> <b>%s</b> был удален на сервере, но его копия сохранена в папке \"Загрузки\" на вашем устройстве.</p>]]></string>
+    <string name="sync_error_no_permission"><![CDATA[<p> У вас нет привилегий для загрузки отредактированной вами версии <b>%s</b>. Вы можете <b>Сохранить</b> файл в вашу папку \"Загрузки\", или <b>Перезаписать</b> этот файл версией с сервера, но ваши изменения будут потеряны.]]></string>
+    <string name="sync_error_node_local_modification">Ошибки синхронизации</string>
+    <string name="sync_action">Синхронизация</string>
+    <string name="sync_override_action">Перезапись</string>
+    <string name="sync_save_action">Сохранение</string>
+    <string name="sync_resolve_conflict">Исправление конфликтов</string>
+    <string name="sync_complete">Синхронизация завершена</string>
+    <string name="sync_in_progress">Синхронизация…</string>
+    <string name="upload_await">Ожидание отправки…</string>
+    <string name="download_await">Ожидание скачивания…</string>
+    <string name="sync_favorites">Избранное</string>
 
     <plurals name="sync_complete_description">
-        <item quantity="zero">no content synced</item>
-        <item quantity="one">1 file synced</item>
-        <item quantity="other">%1$s files synced</item>
+        <item quantity="one">%1$s файл синхронизирован</item>
+        <item quantity="few">%1$s файла синхронизировано</item>
+        <item quantity="many">%1$s файлов синхронизировано</item>
     </plurals>
     <plurals name="download_complete_description">
-        <item quantity="zero">no content downloaded</item>
-        <item quantity="one">1 file available offline</item>
-        <item quantity="other">%1$s files available offline</item>
+        <item quantity="one">%1$s файл доступен оффлайн</item>
+        <item quantity="few">%1$s файла доступно оффлайн</item>
+        <item quantity="many">%1$s файлов доступно оффлайн</item>
     </plurals>
     <plurals name="upload_complete_description">
-        <item quantity="zero">no content uploaded.</item>
-        <item quantity="one">1 item uploaded.</item>
-        <item quantity="other">%1$s items uploaded.</item>
+        <item quantity="one">%1$s файл загружен</item>
+        <item quantity="few">%1$s файла загружено</item>
+        <item quantity="many">%1$s файлов загружено</item>
     </plurals>
     <plurals name="update_complete_description">
-        <item quantity="zero">no content updated.</item>
-        <item quantity="one">1 file updated.</item>
-        <item quantity="other">%1$s files updated.</item>
+        <item quantity="one">%1$s файл обновлен</item>
+        <item quantity="few">%1$s файла обновлено</item>
+        <item quantity="many">%1$s файлов обновлено</item>
     </plurals>
     <plurals name="batch_failed">
-        <item quantity="zero">no transfers unsuccessful.</item>
-        <item quantity="one">1 transfer unsuccessful.</item>
-        <item quantity="other">%1$s transfers unsuccessful.</item>
+        <item quantity="one">%1$s передача прервана</item>
+        <item quantity="few">%1$s передачи прервано</item>
+        <item quantity="many">%1$s передач обновлено</item>
     </plurals>
     <plurals name="batch_in_progress">
-        <item quantity="zero">no transfers in progress.</item>
-        <item quantity="one">1 transfer in progress.</item>
-        <item quantity="other">%1$s transfers in progress.</item>
+        <item quantity="one">%1$s передача в процессе</item>
+        <item quantity="few">%1$s передачи в процессе</item>
+        <item quantity="many">%1$s передач в процессе</item>
     </plurals>
     <plurals name="download_in_progress">
-        <item quantity="zero">no downloads in progress.</item>
-        <item quantity="one">1 download in progress.</item>
-        <item quantity="other">%1$s downloads in progress.</item>
+        <item quantity="one">%1$s файл загружается</item>
+        <item quantity="few">%1$s файла загружается</item>
+        <item quantity="many">%1$s файлов загружается</item>
     </plurals>
 
-    <string name="sync_warning">Sync Warning</string>
-    <string name="sync_error">Sync Error</string>
+    <string name="sync_warning">Проблемы синхронизации</string>
+    <string name="sync_error">Ошибка при синхронизации</string>
     <string name="sync_warning_mobile_data"><![CDATA[<p> You\'re about to sync <b>%s</b> over a carrier connection.</p> Do you want to continue?]]></string>
     <string name="sync_error_storage"><![CDATA[<p> You\'re trying to sync  <b>%1$s</b>, only  %2$s are available.</p> You need to free some space on your device or unfavorite some content.]]></string>
     <string name="sync_warning_storage"><![CDATA[<p> You\'re about to sync  <b>%1$s</b>, only  %2$s remain on your device.</p> Do you want to continue?]]></string>
     <string name="sync_document_not_available">This file isn\'t available on your device.</string>
 
     <!-- NOTIFICATION -->
-    <string name="upload">Upload </string>
-    <string name="upload_complete">Upload Complete.</string>
-    <string name="upload_in_progress">Upload in progress&#8230;</string>
-    <string name="update_complete">Update Complete.</string>
-    <string name="update_in_progress">Update in progress&#8230;</string>
+    <string name="upload">Загрузка </string>
+    <string name="upload_complete">Загрузка завершена.</string>
+    <string name="upload_in_progress">Загрузка…</string>
+    <string name="update_complete">Обновление завершено.</string>
+    <string name="update_in_progress">Обновление…</string>
 
     <!-- Fujitsu ScanSnap -->
-    <string name="scan">Scan</string>
+    <string name="scan">Сканирование</string>
 </resources>
