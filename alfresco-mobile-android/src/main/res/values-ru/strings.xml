@@ -17,151 +17,151 @@
 -->
 <resources>
 
-    <string name="app_name">Content</string>
-    <string name="empty_accounts">No account available</string>
+    <string name="app_name">Datapro24</string>
+    <string name="empty_accounts">Нет доступных аккаунтов</string>
 
     <!-- SIGN IN & CREATE ACCOUNT SCREEN -->
-    <string name="general_login_server_title">Enter the address to connect to</string>
+    <string name="general_login_server_title">Введите адрес для подключения</string>
     <string name="general_login_server_hostname">www.example.com</string>
-    <string name="general_login_server_next">Continue</string>
-    <string name="general_login_server_done">Done</string>
-    <string name="general_login_credentials_title">Enter your credentials</string>
-    <string name="general_login_credentials_username">Username</string>
-    <string name="general_login_credentials_password">Password</string>
-    <string name="general_login_credentials_show_password">Show password</string>
+    <string name="general_login_server_next">Продолжить</string>
+    <string name="general_login_server_done">Готово</string>
+    <string name="general_login_credentials_title">Введите информацию</string>
+    <string name="general_login_credentials_username">Логин</string>
+    <string name="general_login_credentials_password">Пароль</string>
+    <string name="general_login_credentials_show_password">Показать пароль</string>
     <string name="general_login_credentials_sign_in">activiti.alfresco.com</string>
-    <string name="general_login_credentials_or">or</string>
+    <string name="general_login_credentials_or">или</string>
     <string name="general_login_credentials_connect">Activiti onPremise</string>
-    <string name="general_login_signed_in_title">Successfully signed in</string>
-    <string name="general_login_account_added">Account added</string>
-    <string name="general_login_account_name">Give this account a name (optional)</string>
-    <string name="general_login_account_name_title">One last thing&#8230;</string>
+    <string name="general_login_signed_in_title">Успешно зарегистрировались в</string>
+    <string name="general_login_account_added">Аккаунт добавлен</string>
+    <string name="general_login_account_name">Укажите название аккаунта(необязательно)</string>
+    <string name="general_login_account_name_title">И еще один момент…</string>
     <string name="prompt_url">URL</string>
-    <string name="general_login_check_server">Server validation</string>
+    <string name="general_login_check_server">Проверка сервера</string>
 
-    <string name="settings_userinfo">Account</string>
-    <string name="settings_userinfo_account">Details</string>
-    <string name="settings_userinfo_account_summary">Edit details</string>
-    <string name="settings_userinfo_account_name">Name</string>
-    <string name="settings_userinfo_account_name_summary">Edit account name</string>
-    <string name="settings_account">Account Settings</string>
+    <string name="settings_userinfo">Аккаунт</string>
+    <string name="settings_userinfo_account">Подробнее</string>
+    <string name="settings_userinfo_account_summary">Редактировать</string>
+    <string name="settings_userinfo_account_name">Название</string>
+    <string name="settings_userinfo_account_name_summary">Редактировать название аккаунта</string>
+    <string name="settings_account">Настройки аккаунта</string>
 
-    <string name="home_signin">Sign In</string>
-    <string name="home_account">I already have an account</string>
-    <string name="home_helper">To learn more take a look at <a href="alfresco://view_help_guide/">our guide</a> in the Help area</string>
+    <string name="home_signin">Зарегистрироваться</string>
+    <string name="home_account">У меня уже есть аккаунт</string>
+    <string name="home_helper">Узнать больше можно на <a href="alfresco://view_help_guide/">этой странице</a> в блоке помощь</string>
 
     <string name="account_wizard_alfresco_server">Content Services</string>
-    <string name="account_wizard_or">or</string>
+    <string name="account_wizard_or">или</string>
     <string name="account_wizard_alfresco_cloud">Content Services in the Cloud</string>
 
-    <string name="account">Account</string>
-    <string name="action_add_account">Add an account</string>
-    <string name="account_username">Username</string>
-    <string name="account_username_required_hint">Username (Required)</string>
-    <string name="account_password">Password</string>
-    <string name="account_password_required_hint">Password (Required)</string>
-    <string name="account_hostname">Connect to</string>
-    <string name="account_hostname_required_hint">Connection such as www.example.com (Required)</string>
-    <string name="account_hostname_hint">www.example.com (Required)</string>
-    <string name="account_description">Description</string>
-    <string name="account_description_optional_hint">Description (Optional). By default it\'s Content Services</string>
-    <string name="account_description_hint">Content Services (Optional)</string>
-    <string name="account_advanced">Advanced</string>
-    <string name="account_authentication">Account Authentication</string>
+    <string name="account">Аккаунт</string>
+    <string name="action_add_account">Добавить аккаунт</string>
+    <string name="account_username">Логин</string>
+    <string name="account_username_required_hint">Логин (Обязательно)</string>
+    <string name="account_password">Пароль</string>
+    <string name="account_password_required_hint">Пароль (Обязательно)</string>
+    <string name="account_hostname">Подключиться к</string>
+    <string name="account_hostname_required_hint">Подключение к www.example.com (Обязательно)</string>
+    <string name="account_hostname_hint">www.example.com (Обязательно)</string>
+    <string name="account_description">Описание</string>
+    <string name="account_description_optional_hint">Описание (Не обязательно). По умолчанию Content Services</string>
+    <string name="account_description_hint">Content Services (Не обязательно)</string>
+    <string name="account_advanced">Дополнительно</string>
+    <string name="account_authentication">Тип аутентификации</string>
     <string name="account_https">HTTPS</string>
-    <string name="account_https_on_hint">HTTPS on</string>
-    <string name="account_https_off_hint">HTTPS off</string>
-    <string name="account_verify">Verifying Account Information&#8230;</string>
+    <string name="account_https_on_hint">HTTPS включен</string>
+    <string name="account_https_off_hint">HTTPS выключен</string>
+    <string name="account_verify">Проверка аккаунта…</string>
 
     <!-- ACCOUNTS -->
     <string name="account_default_cloud">Content Services in the Cloud</string>
     <string name="account_default_onpremise">Content Services</string>
 
     <!-- WAITING SESSION -->
-    <string name="wait_title">In progress</string>
-    <string name="wait_message">Contacting your server&#8230;</string>
+    <string name="wait_title">Обработка</string>
+    <string name="wait_message">Соединение с сервером…</string>
 
     <!-- DETAILS -->
-    <string name="geolocation">Geolocation</string>
-    <string name="action_version">Versions</string>
-    <string name="document_tags_header">Tags</string>
-    <string name="document_version_header">Version</string>
+    <string name="geolocation">Геолокация</string>
+    <string name="action_version">Версии</string>
+    <string name="document_tags_header">Тэги</string>
+    <string name="document_version_header">Версия</string>
 
     <!-- DOWNLOAD -->
-    <string name="empty_download">No Files</string>
+    <string name="empty_download">Нет файлов</string>
 
     <!-- SEARCH -->
-    <string name="search_form_hint">Enter your search term</string>
+    <string name="search_form_hint">Введите ключевое слово</string>
 
     <!-- AlfrescoAccount WIZARD SCREEN STEP -->
-    <string name="optional">Optional</string>
-    <string name="required">Required</string>
-    <string name="field_required">(Required)</string>
+    <string name="optional">Не обязательно</string>
+    <string name="required">Обязательно</string>
+    <string name="field_required">(Обязательно)</string>
 
     <!-- LOCAL FIlE -->
-    <string name="action_rename">Rename</string>
+    <string name="action_rename">Переименовать</string>
 
     <!-- MAIN MENU -->
     <string name="menu_browse_root">Репозиторий</string>
-    <string name="menu_browse_sites">Sites</string>
-    <string name="menu_browse_userhome">My Files</string>
-    <string name="menu_browse_shared">Shared Files</string>
-    <string name="menu_browse_site_finder">Site Finder</string>
-    <string name="menu_browse_all_sites">All Sites</string>
-    <string name="menu_browse_my_sites">My Sites</string>
-    <string name="menu_browse_favorite_sites">Favorite Sites</string>
-    <string name="menu_browse_activities">Activities</string>
-    <string name="menu_search">Search</string>
-    <string name="menu_downloads">Downloads</string>
-    <string name="menu_local_files">Local Files</string>
-    <string name="menu_about">About</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_accounts">Accounts</string>
-    <string name="menu_view">Views</string>
-    <string name="menu_help">Help</string>
-    <string name="menu_prefs">Settings</string>
+    <string name="menu_browse_sites">Сайты</string>
+    <string name="menu_browse_userhome">Мои файлы</string>
+    <string name="menu_browse_shared">Общие файлы</string>
+    <string name="menu_browse_site_finder">Поисковик</string>
+    <string name="menu_browse_all_sites">Все сайты</string>
+    <string name="menu_browse_my_sites">Мои сайты</string>
+    <string name="menu_browse_favorite_sites">Избранные сайты</string>
+    <string name="menu_browse_activities">Активности</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_downloads">Загрузки</string>
+    <string name="menu_local_files">Локальные файлы</string>
+    <string name="menu_about">О программе</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_accounts">Аккаунты</string>
+    <string name="menu_view">Отображение</string>
+    <string name="menu_help">Помощь</string>
+    <string name="menu_prefs">Настройки</string>
 
     <!-- UPLOAD -->
-    <string name="upload_title">Upload&#8230;</string>
-    <string name="upload_pick_document">Choose content&#8230;</string>
+    <string name="upload_title">Загрузка…</string>
+    <string name="upload_pick_document">Выберите файл…</string>
 
     <!-- ACCOUNTS -->
-    <string name="accounts_manage">Accounts</string>
-    <string name="accounts_details">Details</string>
-    <string name="browse_documents">Browse Content</string>
+    <string name="accounts_manage">Аккаунты</string>
+    <string name="accounts_details">Подробнее</string>
+    <string name="browse_documents">Просмотр содержимого</string>
 
     <!-- PROPERTIES -->
-    <string name="details">Details</string>
-    <string name="metadata">Properties</string>
-    <string name="preview">Preview</string>
+    <string name="details">Подробнее</string>
+    <string name="metadata">Свойства</string>
+    <string name="preview">Предосмотр</string>
 
 
     <!-- NETWORKS -->
-    <string name="cloud_networks_empty">No networks available</string>
-    <string name="manage_accounts">Manage accounts&#8230;</string>
-    <string name="cloud_networks_switch">Switch networks&#8230;</string>
+    <string name="cloud_networks_empty">Сеть недоступа</string>
+    <string name="manage_accounts">Управление аккаунтами…</string>
+    <string name="cloud_networks_switch">Смена сети…</string>
 
 
     <!-- AUTHENTICATION -->
-    <string name="cloud_authentication">Authentication</string>
+    <string name="cloud_authentication">Авторизация</string>
 
     <!-- NETWORK -->
 
     <!-- NOTIFICATION -->
-    <string name="upload">Upload </string>
-    <string name="upload_complete">Upload Complete.</string>
-    <string name="upload_in_progress">Upload in progress&#8230;</string>
-    <string name="update_complete">Update Complete.</string>
-    <string name="update_in_progress">Update in progress&#8230;</string>
-    <string name="error_unable_open_file_title">The file couldn\'t be opened.</string>
-    <string name="error_unable_open_file">This file format isn\'t supported. You need to install an app that can read it.</string>
+    <string name="upload">Загрузка </string>
+    <string name="upload_complete">Загрузка завершена.</string>
+    <string name="upload_in_progress">Загрузка…</string>
+    <string name="update_complete">Обновление завершено.</string>
+    <string name="update_in_progress">Обновление…</string>
+    <string name="error_unable_open_file_title">Этот файл не может быть открыт.</string>
+    <string name="error_unable_open_file">Формат этого файла не поддерживается. Необходимо установить приложение чтобы открыть его.</string>
 
     <!-- OTHER -->
-    <string name="unlike">Unlike</string>
-    <string name="error_retrieve_likes">The Like/Unlike tag for this content couldn\'t be retrieved.</string>
-    <string name="next">Next</string>
-    <string name="save">Save</string>
-    <string name="share_content">Share Content with&#8230;</string>
+    <string name="unlike">Не нравится</string>
+    <string name="error_retrieve_likes">Отметка Нравится/Не нравится для этого файла не может быть получена.</string>
+    <string name="next">След.</string>
+    <string name="save">Сохранить</string>
+    <string name="share_content">Поделится файлом…</string>
 
     <!-- HELP -->
     <string name="docs_prefix" translatable="false" />
@@ -181,125 +181,126 @@
     </string>
 
     <!-- Waiting Message -->
-    <string name="send_email">Share attachment</string>
-    <string name="link_or_attach">Do you want to share this as an attachment or a clickable link?</string>
-    <string name="full_attachment">Attachment</string>
-    <string name="link_to_repo">Clickable link</string>
+    <string name="send_email">Поделиться вложением</string>
+    <string name="link_or_attach">Желаете поделится вложением или ссылкой на него?</string>
+    <string name="full_attachment">Вложение</string>
+    <string name="link_to_repo">Ссылка</string>
     <string name="email_content"><![CDATA[<!DOCTYPE html><html><body>Send with <a href="http://play.google.com/store/apps/details?id=org.alfresco.mobile.android.application">Alfresco Content Services</a></body></html>]]></string>
 
     <!-- Delete -->
     <plurals name="delete_items">
-        <item quantity="one">Are you sure you want to delete \"%s\"?</item>
-        <item quantity="other">Are you sure you want to delete \"%s\" items?</item>
+        <item quantity="one">Вы уверены что хотите удалить \"%s\" элемент?</item>
+        <item quantity="few">Вы уверены что хотите удалить \"%s\" элемента?</item>
+        <item quantity="many">Вы уверены что хотите удалить \"%s\" элементов?</item>
     </plurals>
 
-    <string name="delete_description_data_protection">Data protection is on.\n\nIf you delete this account your content will be unprotected.\n\nAre you sure you want to delete \"%s\"?</string>
-    <string name="delete_in_progress">Delete in progress&#8230;</string>
-    <string name="delete_complete">Delete complete</string>
-    <string name="delete_sucess">\"%s\" has been successfully deleted.</string>
+    <string name="delete_description_data_protection">Защита данных включенаn.\n\nЕсли вы удалите этот аккаунт, ваш данные не будут защищенs.\n\nВы хотите удалить \"%s\"?</string>
+    <string name="delete_in_progress">Удаление…</string>
+    <string name="delete_complete">Удаление завершено</string>
+    <string name="delete_sucess">\"%s\" успешно удален.</string>
 
     <!-- Save Back -->
-    <string name="save_back_description">\"%s\" has been modified. Do you want to upload this new version?</string>
-    <string name="update_sucess">\"%s\" has been updated successfully.</string>
-    <string name="no_voice_recorder">You don\'t have a voice recorder on this device</string>
-    <string name="cannot_capture">Can\'t complete the capturing of this information</string>
+    <string name="save_back_description">\"%s\" был изменен. Желаете загрузить эту версию?</string>
+    <string name="update_sucess">\"%s\" успешно обновлен.</string>
+    <string name="no_voice_recorder">Данное устройство не может записать аудио</string>
+    <string name="cannot_capture">Невозможно получить эту информацию</string>
 
     <!-- Upload -->
 
     <!-- Create Document -->
-    <string name="open_play_store">Open Google Play Store</string>
-    <string name="create_document">Create&#8230;</string>
-    <string name="create_document_title">Create&#8230;</string>
-    <string name="create_document_name_hint">Type the file name here</string>
-    <string name="create_document_filename_error">This name is already in use.</string>
+    <string name="open_play_store">Открыть в Google Play Store</string>
+    <string name="create_document">Создать…</string>
+    <string name="create_document_title">Создать…</string>
+    <string name="create_document_name_hint">Укажите имя файла</string>
+    <string name="create_document_filename_error">Файл с таким именем уже есть</string>
     <string name="create_document_editor_title">Complete action using</string>
-    <string name="create_document_editor_not_available">No application available</string>
-    <string name="create_document_editor_not_available_description">You don\'t have an app that will create this file type.</string>
-    <string name="preview_unavailable">Preview not available.</string>
-    <string name="sdinaccessible">SD card must be accessible for this operation</string>
-    <string name="loginfirst">Login to an Alfresco Content Services account first</string>
+    <string name="create_document_editor_not_available">Нет доступных приложений</string>
+    <string name="create_document_editor_not_available_description">Вы не можете создать файл такого типа. Не найдено подходящее приложение</string>
+    <string name="preview_unavailable">Предосмотр недоустпен</string>
+    <string name="sdinaccessible">SD карта должна быть доступна для этой операции</string>
+    <string name="loginfirst">Сперва войдите в Alfresco Content Services </string>
 
     <!-- Comment -->
-    <string name="comment_add_hint">Add your comment here&#8230;</string>
+    <string name="comment_add_hint">Оставьте ваш комментарий…</string>
 
     <!-- DATA PROTECTION -->
-    <string name="data_protection">Data Protection</string>
-    <string name="data_protection_blurb"><![CDATA[<p><b>Data protection is available.</b><br/> Do you want to turn it on? <p>  All content downloaded from Alfresco Content Services accounts will be encrypted and can only be viewed in the Alfresco Content Services app. ]]></string>
-    <string name="decryption_failed">Decryption failed</string>
-    <string name="protect_question"><![CDATA[<p><b>Do you want to protect downloaded content?</b><p>  All content downloaded from Alfresco Content Services accounts will be encrypted and can only be viewed in the Alfresco Content Services app.]]></string>
-    <string name="unprotect_question"><![CDATA[<p><b>Do you want to unprotect downloaded content?</b><p>  This will be applied to all content you\'ve downloaded from Alfresco Content Services.]]></string>
-    <string name="decryption_title">Turning off Data Protection&#8230;</string>
-    <string name="encryption_title">Turning on Data Protection&#8230;</string>
-    <string name="encrypt_action">Encrypt</string>
-    <string name="decrypt_action">Decrypt</string>
+    <string name="data_protection">Защита информации</string>
+    <string name="data_protection_blurb"><![CDATA[<p><b>Доступна защита информации.</b><br/> Желаете включить еще? <p>  Весь скаченный контент этим приложением будет зашифрован и доступен для промотра только внутри него. ]]></string>
+    <string name="decryption_failed">Ошибка дешифрования</string>
+    <string name="protect_question"><![CDATA[<p><b>Установить защиту для скаченных файлов?</b><p>  Весь скаченный контент этим приложением будет зашифрован и доступен для промотра только внутри него.]]></string>
+    <string name="unprotect_question"><![CDATA[<p><b>Снять защиту для скаченных файлов?</b><p> Эта операция будет применена для всех файлов скаченных этим приложением.]]></string>
+    <string name="decryption_title">Снятие защиты…</string>
+    <string name="encryption_title">Установка защиты…</string>
+    <string name="encrypt_action">Зашифровать</string>
+    <string name="decrypt_action">Расшифровать</string>
 
     <!-- OPEN AS.. -->
-    <string name="open_as_title">Open as&#8230;</string>
-    <string name="open_as_image">Image</string>
-    <string name="open_as_audio">Audio</string>
-    <string name="open_as_video">Video</string>
-    <string name="open_as_txt">Text Document</string>
+    <string name="open_as_title">Открыть как…</string>
+    <string name="open_as_image">Изображение</string>
+    <string name="open_as_audio">Аудио</string>
+    <string name="open_as_video">Видео</string>
+    <string name="open_as_txt">Текстовый файл</string>
 
     <!-- SITES ACTION -->
-    <string name="sites_empty_title">No sites found</string>
-    <string name="action_join_site">Join</string>
-    <string name="action_join_request_site">Request to join</string>
-    <string name="action_leave_site">Leave</string>
-    <string name="action_favorite_site">Favorite</string>
-    <string name="action_unfavorite_site">Unfavorite</string>
-    <string name="action_join_site_validation">You\'re now member of \"%s\".</string>
-    <string name="action_leave_site_validation">You\'ve left  \"%s\".</string>
-    <string name="action_favorite_site_validation">\"%s\" is now a favorite.</string>
-    <string name="action_unfavorite_site_validation">\"%s\" has been unfavorited.</string>
-    <string name="action_join_request_site_validation">You\'ve requested to join \"%s\"</string>
-    <string name="joinsiterequest_list_title">List of pending requests</string>
-    <string name="joinsiterequest_cancel_description">Cancel your request to join site %s</string>
-    <string name="action_cancel_join_site_request">Your request to join \"%s\" has been cancelled.</string>
-    <string name="action_join_site_error">A problem prevented you from joining the site \"%s\".</string>
-    <string name="action_leave_site_error">A problem prevented you from leaving the site \"%s\".</string>
-    <string name="action_favorite_error">A problem prevented you from favoriting the site \"%s\".</string>
-    <string name="action_unfavorite_site_error">A problem prevented you from unfavoriting the site \"%s\".</string>
+    <string name="sites_empty_title">Не найдено сайтов</string>
+    <string name="action_join_site">Присоединиться</string>
+    <string name="action_join_request_site">Запрос на присоединение</string>
+    <string name="action_leave_site">Покинуть</string>
+    <string name="action_favorite_site">Добавить в избранное</string>
+    <string name="action_unfavorite_site">Убрать из избранное</string>
+    <string name="action_join_site_validation">Теперь вы участник \"%s\".</string>
+    <string name="action_leave_site_validation">Вы покинули \"%s\".</string>
+    <string name="action_favorite_site_validation">\"%s\" в избранном.</string>
+    <string name="action_unfavorite_site_validation">\"%s\" удален из избранного.</string>
+    <string name="action_join_request_site_validation">Вы запросили доступ на присоединение к \"%s\"</string>
+    <string name="joinsiterequest_list_title">Список ожидающих сайтов</string>
+    <string name="joinsiterequest_cancel_description">Отменить запрос на присоединение к сайту %s</string>
+    <string name="action_cancel_join_site_request">Ваш  запрос на присоединение \"%s\" отклонен.</string>
+    <string name="action_join_site_error">Возникла проблема при попытке присоединиться к сайту \"%s\".</string>
+    <string name="action_leave_site_error">Возникла проблема при попытке покинуть к сайту  \"%s\".</string>
+    <string name="action_favorite_error">Возникла проблема при попытке добавить сайт в избранное \"%s\".</string>
+    <string name="action_unfavorite_site_error">Возникла проблема при попытке удалить сайт из избранного \"%s\".</string>
 
     <!-- IMPORT -->
-    <string name="import_document_title">Choose location</string>
-    <string name="import_document_name">File Name</string>
-    <string name="import_documents">File</string>
-    <string name="import_account">Account</string>
-    <string name="import_folder">Upload Folder</string>
-    <string name="import_unsupported_intent">Couldn\'t complete the action.</string>
-    <string name="action_upload">Upload</string>
-    <string name="action_import">Import</string>
+    <string name="import_document_title">Выберите расположение</string>
+    <string name="import_document_name">Название файла</string>
+    <string name="import_documents">Файл</string>
+    <string name="import_account">Аккаунт</string>
+    <string name="import_folder">Загрузить папку</string>
+    <string name="import_unsupported_intent">Не удалось совершить операцию.</string>
+    <string name="action_upload">Загрузка</string>
+    <string name="action_import">Импорт</string>
 
     <!-- SSL -->
-    <string name="security_ssl_disable">SSL certificate validation has been turned off.</string>
-    <string name="data_protection_unavailable">Data protection unavailable (paid-account-holders only)"</string>
-    <string name="data_protection_off">Data protection is currently off"</string>
-    <string name="data_protection_on">Data protection is currently on"</string>
+    <string name="security_ssl_disable">Проверка SSL сертификата отключена.</string>
+    <string name="data_protection_unavailable">Защита данных недоступна(только платных аккаунтов)"</string>
+    <string name="data_protection_off">Защита данных выключена"</string>
+    <string name="data_protection_on">Защита данных включена</string>
 
     <!-- PIN Code -->
-    <string name="passcode_title">Enter Passcode</string>
-    <string name="passcode_admin_title">Your IT Team require you to use Passcode protection.</string>
-    <string name="passcode_enable_title">Turn on Passcode</string>
-    <string name="passcode_preference">Passcode Protection</string>
-    <string name="passcode_enable">On</string>
-    <string name="passcode_disable">Off</string>
-    <string name="passcode_change">Change Passcode</string>
-    <string name="passcode_timeout">Expiration</string>
+    <string name="passcode_title">Введите пин-код</string>
+    <string name="passcode_admin_title">Ваша организация требует обязательной установки пин кода</string>
+    <string name="passcode_enable_title">Включить доступ по пин-коду</string>
+    <string name="passcode_preference">Настройки пин-кода</string>
+    <string name="passcode_enable">Включить</string>
+    <string name="passcode_disable">выключит</string>
+    <string name="passcode_change">Сменить пин-код</string>
+    <string name="passcode_timeout">Срок жизни</string>
     <string name="passcode_timeout_summary">{0,choice,0#After 0 minute|1#After 1 minute|1&lt;After {0} minutes}</string>
-    <string name="passcode_erase_data">Erase Data</string>
-    <string name="passcode_erase_data_summary">Erase all Alfresco Content Services data from this device after 10 failed passcode attempts</string>
-    <string name="passcode_edit">Enter your new Passcode</string>
-    <string name="passcode_confirmation">Re-enter Passcode</string>
-    <string name="passcode_error_confirmation">Your passcode doesn\'t match.</string>
-    <string name="passcode_unknown">Your passcode is incorrect.</string>
-    <string name="passcode_erase_data_complete">All local data has been removed.</string>
-    <string name="passcode_timeout_title">Passcode timeout</string>
-    <string name="passcode_timeout_1min">1 minute</string>
-    <string name="passcode_timeout_2min">2 minutes</string>
-    <string name="passcode_timeout_5min">5 minutes</string>
-    <string name="passcode_timeout_10min">10 minutes</string>
-    <string name="passcode_timeout_30min">30 minutes</string>
-    <string name="passcode_timeout_60min">1 hour</string>
+    <string name="passcode_erase_data">Почистить данные</string>
+    <string name="passcode_erase_data_summary">Почистить все данные Alfresco Content Services на этом устройстве после 10 неудачных попыток входа</string>
+    <string name="passcode_edit">Введите новый пин-код</string>
+    <string name="passcode_confirmation">Подтвердите новый пин-код</string>
+    <string name="passcode_error_confirmation">Пин-коды не совпадают.</string>
+    <string name="passcode_unknown">Пин-код не верный.</string>
+    <string name="passcode_erase_data_complete">Все локальные данные удалены.</string>
+    <string name="passcode_timeout_title">Время на ввод пин-кода</string>
+    <string name="passcode_timeout_1min">1 минута</string>
+    <string name="passcode_timeout_2min">2 минуты</string>
+    <string name="passcode_timeout_5min">5 минут</string>
+    <string name="passcode_timeout_10min">10 минут</string>
+    <string name="passcode_timeout_30min">30 минут</string>
+    <string name="passcode_timeout_60min">1 час</string>
 
     <string-array name="passcode_timeout_entries">
         <item>@string/passcode_timeout_1min</item>
@@ -319,291 +320,291 @@
     </string-array>
 
     <!-- Settings -->
-    <string name="settings">Settings</string>
-    <string name="settings_enterprise">Enterprise Settings</string>
-    <string name="settings_privatefolder_summary">Data protection makes content downloaded from this app to be readable only in the Alfresco Content Services app. (Enterprise customers only)</string>
-    <string name="settings_privatefolder_title">Data Protection</string>
-    <string name="settings_links">Links</string>
+    <string name="settings">Настройки</string>
+    <string name="settings_enterprise">Настройки Enterprise аккаунта</string>
+    <string name="settings_privatefolder_summary">Защита информации зашифрует весь контент этого приложения и он будет доступен для промотра только внутри него[Enterprise].</string>
+    <string name="settings_privatefolder_title">Защита информации</string>
+    <string name="settings_links">Ссылки</string>
     <string name="settings_links_website">Alfresco</string>
-    <string name="settings_links_website_summary">Visit the official Alfresco website</string>
+    <string name="settings_links_website_summary">Посетите официальный сайт Alfresco</string>
     <string name="settings_links_website_url">http://www.alfresco.com/products/mobile</string>
-    <string name="settings_rating">Write a review</string>
-    <string name="settings_rating_summary">Rate this app on Google Play</string>
+    <string name="settings_rating">Оставьте отзыв</string>
+    <string name="settings_rating_summary">Оцените это приложение на Google Play</string>
     <string name="settings_rating_packagename">org.alfresco.mobile.android.application</string>
     <string name="settings_rating_url">market://details?id=org.alfresco.mobile.android.application</string>
-    <string name="settings_links_facebook">Like on Facebook</string>
-    <string name="settings_links_facebook_summary">Like on Facebook</string>
+    <string name="settings_links_facebook">Нравится в Facebook</string>
+    <string name="settings_links_facebook_summary">Группа в Facebook</string>
     <string name="settings_links_facebook_url">http://www.facebook.com/alfrescosoftware</string>
-    <string name="settings_favorite">Favorites</string>
-    <string name="settings_synced_content">Synced Content</string>
-    <string name="settings_favorite_sync">Turn on Sync</string>
-    <string name="settings_favorite_sync_summary">Turn on Sync for \"%s\"</string>
-    <string name="settings_favorite_sync_data">Data Usage</string>
+    <string name="settings_favorite">Избранное</string>
+    <string name="settings_synced_content">Синхронизированный контент</string>
+    <string name="settings_favorite_sync">Включить синхронизацию</string>
+    <string name="settings_favorite_sync_summary">Включить синхронизацию для \"%s\"</string>
+    <string name="settings_favorite_sync_data">Использование данных</string>
     <string name="settings_favorite_sync_data_all">Use Data Allowance for Sync.</string>
-    <string name="settings_custom_menu">Customization</string>
-    <string name="settings_custom_menu_summary">Select which tabs are available on your menu.</string>
-    <string name="settings_custom_menu_manage">Menu</string>
-    <string name="settings_custom_menu_disable">Your IT Team has turned off this feature.</string>
-    <string name="settings.feedback">Feedback</string>
-    <string name="settings.feedback.diagnostic">Send Diagnostics</string>
-    <string name="settings.feedback.diagnostic.summary">To help us improve this app, we collect anonymous technical diagnostic data. Deselect if preferred.</string>
-    <string name="settings.feedback.email">Send Feedback</string>
+    <string name="settings_custom_menu">Кастомизация</string>
+    <string name="settings_custom_menu_summary">Указать какие из вкладок будут доступны в меню.</string>
+    <string name="settings_custom_menu_manage">Меню</string>
+    <string name="settings_custom_menu_disable">Для вашей организации эта функция недоступна.</string>
+    <string name="settings.feedback">Отзыв</string>
+    <string name="settings.feedback.diagnostic">Отправить отчет</string>
+    <string name="settings.feedback.diagnostic.summary">Чтобы улучшить наше приложение мы собираем анонимную статистику работы нашего приложения.</string>
+    <string name="settings.feedback.email">Оставить отзыв</string>
 
     <!-- Multi Selection -->
     <plurals name="selected_document">
-        <item quantity="zero">no files</item>
-        <item quantity="one">1 file</item>
-        <item quantity="other">%1$s files</item>
+        <item quantity="one">%1$s файл</item>
+        <item quantity="few">%1$s файла</item>
+        <item quantity="many">%1$s файлов</item>
     </plurals>
     <plurals name="selected_folders">
-        <item quantity="zero">no folder</item>
-        <item quantity="one">1 folder</item>
-        <item quantity="other">%1$s folders</item>
+        <item quantity="one">%1$s папка</item>
+        <item quantity="few">%1$s папки</item>
+        <item quantity="many">%1$s папок</item>
     </plurals>
     <plurals name="selected_search">
-        <item quantity="zero">no query</item>
-        <item quantity="one">1 query</item>
-        <item quantity="other">%1$s queries</item>
+        <item quantity="one">%1$s запрос</item>
+        <item quantity="few">%1$s запроса</item>
+        <item quantity="many">%1$s запросов</item>
     </plurals>
 
     <!-- Favorites -->
-    <string name="menu_favorites_folder">Favorite Folders</string>
-    <string name="menu_favorites">Favorites</string>
-    <string name="sync_mark">Mark as Sync</string>
-    <string name="synced_content">Synced Content</string>
-    <string name="empty_favorites">No Favorites</string>
-    <string name="favorites_document">Favorite</string>
-    <string name="error_retrieve_favorite">Favorite info for this content couldn\'t be retrieved.</string>
-    <string name="favorites_activate">Sync content for \"%s\"</string>
-    <string name="favorites_activate_description">Do you want to automatically keep your favorite content in sync with this device?</string>
-    <string name="favorites_deactivate">Turn off Synchronization</string>
-    <string name="favorites_deactivate_description"><![CDATA[<p>Do you want to turn off sync?</p> All synced content will be deleted from your device.]]></string>
-    <string name="sync_error_title">Sync Errors</string>
-    <string name="sync_error_node_unfavorited"><![CDATA[<p>You\'ve unsynced <b>%s</b> since you started editing it. <br/> <b>Sync</b> your edited version to the server or <b>Save</b> it to your \"Downloads\" folder. </p>]]></string>
-    <string name="sync_error_node_deleted"><![CDATA[<p> <b>%s</b> has been deleted on the server but a copy has been saved in your \"Downloads\" folder.</p>]]></string>
-    <string name="sync_error_no_permission"><![CDATA[<p> You don\'t have the required permission to upload your edited version of <b>%s</b>. You can <b>Save</b> it to your \"Downloads\" folder, or <b>Overwrite</b> it with the server version which will discard your edits.]]></string>
-    <string name="sync_error_node_local_modification">Sync Errors</string>
-    <string name="sync_action">Sync</string>
-    <string name="sync_override_action">Overwrite</string>
-    <string name="sync_save_action">Save</string>
-    <string name="sync_resolve_conflict">Resolve conflict</string>
-    <string name="sync_complete">Sync completed</string>
-    <string name="sync_in_progress">Sync in progress&#8230;</string>
-    <string name="upload_await">Waiting to upload&#8230;</string>
-    <string name="download_await">Waiting to download&#8230;</string>
+    <string name="menu_favorites_folder">Избранные папки</string>
+    <string name="menu_favorites">Избранное</string>
+    <string name="sync_mark">Пометить как избранное</string>
+    <string name="synced_content">Синхронизированный контент</string>
+    <string name="empty_favorites">Пусто</string>
+    <string name="favorites_document">Избранное</string>
+    <string name="error_retrieve_favorite">Информация о состоянии этого файла не доступно.</string>
+    <string name="favorites_activate">Синхронизировать содержимое для \"%s\"</string>
+    <string name="favorites_activate_description">Хотите автоматически синхонизировать весь контент из избранного?</string>
+    <string name="favorites_deactivate">Выключить синхронизацию</string>
+    <string name="favorites_deactivate_description"><![CDATA[<p>Вы действительно хотите выключить?</p> Весь синхронизированный контент будет удален из устройства.]]></string>
+    <string name="sync_error_title">Ошибки синхронизации</string>
+    <string name="sync_error_node_unfavorited"><![CDATA[<p>Синхронизация приостановлена для <b>%s</b> с того момента как вы стали его редактировать. <br/> <b>Загрузите</b> отредактированный документ на сервер или <b>Сохраните</b> в папку \"Загрузки\". </p>]]></string>
+    <string name="sync_error_node_deleted"><![CDATA[<p> <b>%s</b> удален с сервера, но сохранен  вашей папке \"Загрузки\".</p>]]></string>
+    <string name="sync_error_no_permission"><![CDATA[<p> У вас нет привилегий для загрузки отредактированного документа на сервер <b>%s</b>. Вы можете сохранить документ в папку \"Загрузки\" или <b>Откатить</b> изменения весрией файла с сервера.]]></string>
+    <string name="sync_error_node_local_modification">Ошибка синхронизации</string>
+    <string name="sync_action">Синхронизация</string>
+    <string name="sync_override_action">Перезаписать</string>
+    <string name="sync_save_action">Сохранить</string>
+    <string name="sync_resolve_conflict">Разрешить конфликты</string>
+    <string name="sync_complete">Синхронизация завершена</string>
+    <string name="sync_in_progress">Синхронизация…</string>
+    <string name="upload_await">Загрузка…</string>
+    <string name="download_await">Ожидание скачивания…</string>
 
     <!-- Sync -->
-    <string name="sync_title">Synced Content</string>
-    <string name="sync">Sync</string>
-    <string name="unsync">UnSync</string>
-    <string name="sync_favorites">Favorites</string>
-    <string name="sync_empty_title">Keep your files in sync</string>
-    <string name="sync_empty_description">You can view and edit your synced files when you\'re offline</string>
+    <string name="sync_title">Синхронизированные данные</string>
+    <string name="sync">Синхронизировать</string>
+    <string name="unsync">Выключить снихронизацию</string>
+    <string name="sync_favorites">Избранное</string>
+    <string name="sync_empty_title">Держите ваши файлы синхронизированными</string>
+    <string name="sync_empty_description">Вы можете просматривать и редактировать синхронизированные файлы оффлайн</string>
 
-    <string name="sync_info_one_title">Sync has changed!</string>
-    <string name="sync_info_one_first_text">You can now sync different files on different devices. Just find a file and sync it!</string>
-    <string name="sync_info_one_second_text">View and edit your synced files when you\'re offline. When you\'re back online they\'ll automatically sync.</string>
-    <string name="sync_info_two_title">What about the files I already favorited?</string>
-    <string name="sync_info_two_first_text">No problem, they\'re all still synced!</string>
-    <string name="sync_info_two_second_text">When you favorite files from now on, they\'ll be in your Favorites tab, but you need to sync them if you want offline access.</string>
-    <string name="sync_info_third_title">Where do I find synced files?</string>
-    <string name="sync_info_third_first_text">You can find all your synced files in the new Synced Content view!</string>
-    <string name="sync_info_third_second_text">Synced Content</string>
-    <string name="sync_info_validation">OK, I\'ve got it.</string>
-    <string name="sync_info_more_information">Learn more</string>
-    <string name="sync_info_skip">Skip</string>
-    <string name="sync_info_next">Next</string>
+    <string name="sync_info_one_title">Синронизация была изменена!</string>
+    <string name="sync_info_one_first_text">Вы можете синхронизировать различные данные на различных устройствах. Просто найдите файл и синхронизируйте его!</string>
+    <string name="sync_info_one_second_text">Просматривайте и редактируйте синхронизированные файлы оффлайн. При выходе в онлайн они автоматически синхронизируются.</string>
+    <string name="sync_info_two_title">А что насчет файлов которые уже в избранном?</string>
+    <string name="sync_info_two_first_text">Нет проблем, они уже синхронизированны!</string>
+    <string name="sync_info_two_second_text">Теперь, когда вы добавляете в избранное файлы, они будут на вкладке «Избранное», но вам нужно синхронизировать их, если вы хотите иметь автономный доступ.</string>
+    <string name="sync_info_third_title">Где я могу найти синхронизированные файлы?</string>
+    <string name="sync_info_third_first_text">Вы можете найти все ваши синхронизированные файлы в блоке синхронизированного содержимого!</string>
+    <string name="sync_info_third_second_text">Синхронизированный контент</string>
+    <string name="sync_info_validation">ОК, я понял.</string>
+    <string name="sync_info_more_information">Узнать больше</string>
+    <string name="sync_info_skip">Пропустить</string>
+    <string name="sync_info_next">Далее</string>
 
 
     <plurals name="sync_complete_description">
-        <item quantity="zero">no content synced</item>
-        <item quantity="one">1 file synced</item>
-        <item quantity="other">%1$s files synced</item>
+        <item quantity="one">%1$s файл синзронизирован</item>
+        <item quantity="few">%1$s файла синзронизировано</item>
+        <item quantity="many">%1$s файлов синзронизировано</item>
     </plurals>
     <plurals name="download_complete_description">
-        <item quantity="zero">no content downloaded</item>
-        <item quantity="one">1 file available offline</item>
-        <item quantity="other">%1$s files available offline</item>
+        <item quantity="one">%1$s файл доступен оффлайн</item>
+        <item quantity="few">%1$s файла доступно оффлайн</item>
+        <item quantity="many">%1$s файлов доступно оффлайн</item>
     </plurals>
     <plurals name="upload_complete_description">
-        <item quantity="zero">no content uploaded.</item>
-        <item quantity="one">1 item uploaded.</item>
-        <item quantity="other">%1$s items uploaded.</item>
+        <item quantity="one">%1$s файл загружен</item>
+        <item quantity="few">%1$s файла загружено</item>
+        <item quantity="many">%1$s файлов загружено</item>
     </plurals>
     <plurals name="update_complete_description">
-        <item quantity="zero">no content updated.</item>
-        <item quantity="one">1 file updated.</item>
-        <item quantity="other">%1$s files updated.</item>
+        <item quantity="one">%1$s файл обновлен</item>
+        <item quantity="few">%1$s файла обновлено</item>
+        <item quantity="many">%1$s файлов обновлено</item>
     </plurals>
     <plurals name="batch_failed">
-        <item quantity="zero">no transfers unsuccessful.</item>
-        <item quantity="one">1 transfer unsuccessful.</item>
-        <item quantity="other">%1$s transfers unsuccessful.</item>
+        <item quantity="one">%1$s проблема передачи</item>
+        <item quantity="few">%1$s проблем передачи</item>
+        <item quantity="many">%1$s проблем передачи</item>
     </plurals>
     <plurals name="batch_in_progress">
-        <item quantity="zero">no transfers in progress.</item>
-        <item quantity="one">1 transfer in progress.</item>
-        <item quantity="other">%1$s transfers in progress.</item>
+        <item quantity="one">%1$s передача</item>
+        <item quantity="few">%1$s передачи</item>
+        <item quantity="many">%1$s передач</item>
     </plurals>
     <plurals name="download_in_progress">
-        <item quantity="zero">no downloads in progress.</item>
-        <item quantity="one">1 download in progress.</item>
-        <item quantity="other">%1$s downloads in progress.</item>
+        <item quantity="one">%1$s скачивание в процессе</item>
+        <item quantity="few">%1$s скачивания в процессе</item>
+        <item quantity="many">%1$s скачиваний в процессе</item>
     </plurals>
 
-    <string name="sync_warning">Sync Warning</string>
-    <string name="sync_error">Sync Error</string>
-    <string name="sync_warning_mobile_data"><![CDATA[<p> You\'re about to sync <b>%s</b> over a carrier connection.</p> Would you like to continue?]]></string>
-    <string name="sync_error_storage"><![CDATA[<p> You\'re trying to sync <b>%1$s</b>, only  %2$s are available.</p> You need to free some space in your device or unsync content.]]></string>
-    <string name="sync_warning_storage"><![CDATA[<p> You\'re about to sync <b>%1$s</b>, only  %2$s remain on your device.</p> Would you like to continue?]]></string>
-    <string name="sync_document_not_available">This document isn\'t available on your device.</string>
+    <string name="sync_warning">Проблема синхронизации</string>
+    <string name="sync_error">Ошибка синхронизации</string>
+    <string name="sync_warning_mobile_data"><![CDATA[<p>Вы собираетесь синхронизировать <b>% s </b> через соединение с оператором связи. </p>Хотите продолжить?]]></string>
+    <string name="sync_error_storage"><![CDATA[<p>Вы пытаетесь синхронизировать <b>%1$s</b>, однако доступно только %2$s. </p> Вам необходимо освободить место на устройстве или отменить синхронизацию.]]></string>
+    <string name="sync_warning_storage"><![CDATA[<p>Вы собираетесь синхронизировать <b>%1$s</b>, на вашем устройстве осталось только %2$s. </p>Хотите продолжить?]]></string>
+    <string name="sync_document_not_available">Этот документ не доступен на вашем устройстве.</string>
 
     <!-- Handling duplicate name -->
-    <string name="error_duplicate_title">Duplicate name</string>
-    <string name="error_duplicate_description"><![CDATA[<p>There\'s already a downloaded file with the same name.</p> Do you want to overwrite the existing file?]]></string>
+    <string name="error_duplicate_title">Повторяющееся название</string>
+    <string name="error_duplicate_description"><![CDATA[<p>Уже загружен файл с таким же именем. </p>Хотите перезаписать существующий файл?]]></string>
 
     <!-- Quick Action Folder -->
-    <string name="action_view_properties">View Properties</string>
-    <string name="action_edit_properties">Edit Properties</string>
-    <string name="like_in_progress">Like in progress</string>
-    <string name="like_completed">Like completed</string>
-    <string name="like_complete">Like complete</string>
-    <string name="favorite">Favorite</string>
-    <string name="unfavorite">Unfavorite</string>
+    <string name="action_view_properties">Посмотреть свойства</string>
+    <string name="action_edit_properties">Отредактировать свойства</string>
+    <string name="like_in_progress">Нравится</string>
+    <string name="like_completed">Нравится</string>
+    <string name="like_complete">Нравится</string>
+    <string name="favorite">в избранное</string>
+    <string name="unfavorite">убрать из избранного</string>
 
     <!-- Operations Status -->
-    <string name="status_pending">Pending</string>
-    <string name="status_running">Running</string>
-    <string name="status_paused">Paused</string>
-    <string name="status_successful">Successful</string>
-    <string name="status_failed">Unsuccessful</string>
-    <string name="status_cancelled">Cancelled</string>
-    <string name="session_loaded">Session ready</string>
+    <string name="status_pending">Ожидание</string>
+    <string name="status_running">Запуск</string>
+    <string name="status_paused">Приостановлено</string>
+    <string name="status_successful">Успешно</string>
+    <string name="status_failed">Неуспешно</string>
+    <string name="status_cancelled">Отменено</string>
+    <string name="session_loaded">Сессия готова</string>
 
     <!-- Operations Type -->
-    <string name="notifications">Notifications</string>
-    <string name="operation_default">Notifications</string>
-    <string name="DownloadRequest">Download</string>
-    <string name="CreateDocumentRequest">Create Content</string>
-    <string name="UpdateContentRequest">Update Content</string>
-    <string name="DeleteNodeRequest">Delete</string>
-    <string name="LikeNodeRequest">Like</string>
-    <string name="FavoriteNodeRequest">Favorite</string>
-    <string name="CreateFolderRequest">Create Folder</string>
-    <string name="LoadSessionRequest">Load Session</string>
+    <string name="notifications">Уведомления</string>
+    <string name="operation_default">Уведомления</string>
+    <string name="DownloadRequest">Скачивание</string>
+    <string name="CreateDocumentRequest">Создание файла</string>
+    <string name="UpdateContentRequest">Обновление файла</string>
+    <string name="DeleteNodeRequest">Удаление</string>
+    <string name="LikeNodeRequest">Нравится</string>
+    <string name="FavoriteNodeRequest">В избранном</string>
+    <string name="CreateFolderRequest">Создание папки</string>
+    <string name="LoadSessionRequest">Загрузка информации</string>
 
     <!-- Multi selection -->
-    <string name="empty">Nothing at all</string>
-    <string name="operations_empty">No Operations</string>
-    <string name="select_all">Select All</string>
-    <string name="cancel_all">Cancel All</string>
-    <string name="dismiss_all">Clear List</string>
+    <string name="empty">Пусто</string>
+    <string name="operations_empty">Нет действий</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="cancel_all">Убрать все</string>
+    <string name="dismiss_all">Отчистить выделение</string>
 
     <!-- Creation Folder -->
-    <string name="create_folder_in_progress">Create folder in progress</string>
-    <string name="textfile_populate_failed">Couldn\'t load text into editor</string>
+    <string name="create_folder_in_progress">Создание папки</string>
+    <string name="textfile_populate_failed">Не удалось загрузить текст в редактор</string>
 
     <!-- FILE EXPLORER Menu -->
-    <string name="shortcut_alfresco_downloads">Downloads</string>
-    <string name="shortcut_library">Library</string>
-    <string name="shortcut_library_images">Images</string>
-    <string name="shortcut_library_videos">Videos</string>
-    <string name="shortcut_library_audios">Music</string>
-    <string name="shortcut_library_office">Office</string>
-    <string name="shortcut_local">Device Shortcut</string>
-    <string name="shortcut_local_downloads">Device Downloads</string>
+    <string name="shortcut_alfresco_downloads">Скаченное</string>
+    <string name="shortcut_library">Библиотека</string>
+    <string name="shortcut_library_images">Изображения</string>
+    <string name="shortcut_library_videos">Видео</string>
+    <string name="shortcut_library_audios">Музыка</string>
+    <string name="shortcut_library_office">Офис</string>
+    <string name="shortcut_local">На устройстве</string>
+    <string name="shortcut_local_downloads">Загрузки</string>
     <string name="shortcut_local_sdcard">SD Card</string>
-    <string name="shortcut_thirdparty_app">Applications</string>
-    <string name="shortcut_thirdparty_applications">Other applications</string>
+    <string name="shortcut_thirdparty_app">Приложения</string>
+    <string name="shortcut_thirdparty_applications">Дргуие приложения</string>
 
     <!-- FILE Editor Menu -->
-    <string name="file_editor_name">Text Editor</string>
-    <string name="file_editor_error_open">Couldn\'t open this file.</string>
-    <string name="file_editor_error_too_large">This file exceeds the Text Editor size limit.</string>
-    <string name="file_editor_error_speech">Text To Speech is not available inside your device.</string>
-    <string name="file_editor_save_request">The file has been modified.</string>
-    <string name="file_editor_save_description"><![CDATA[Do you want to quit without saving? <br/> Any unsaved changes will be lost.]]></string>
-    <string name="file_editor_save">Save</string>
-    <string name="file_editor_discard">Discard</string>
-    <string name="file_editor_save_confirmation">File saved.</string>
-    <string name="file_editor_encoding">Encoding</string>
-    <string name="file_editor_text_size">Text Size</string>
-    <string name="file_editor_speech_to_text">Speech to Text</string>
+    <string name="file_editor_name">Текстовый редактор</string>
+    <string name="file_editor_error_open">Не удалось открыть этот файл.</string>
+    <string name="file_editor_error_too_large">Размер файла превышает допустимый для чтения в текстовом редакторе.</string>
+    <string name="file_editor_error_speech">Преобразование текста в речь не доступно на вашем устройстве.</string>
+    <string name="file_editor_save_request">Файл был изменен.</string>
+    <string name="file_editor_save_description"><![CDATA[Вы хотите выйти без сохранения? <br/> Не сохраненые данные будут потеряны.]]></string>
+    <string name="file_editor_save">Сохранить</string>
+    <string name="file_editor_discard">Отменить</string>
+    <string name="file_editor_save_confirmation">Файл сохранен.</string>
+    <string name="file_editor_encoding">Шифрование</string>
+    <string name="file_editor_text_size">Размер текста</string>
+    <string name="file_editor_speech_to_text">Преобразование текста в речь</string>
 
     <!-- Simple -->
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
 
     <!-- People -->
-    <string name="my_profile">My Profile</string>
-    <string name="user_profile">User Profile</string>
-    <string name="work_at">%1$s at %2$s</string>
-    <string name="jobTitle">Job Title</string>
-    <string name="location">Location</string>
-    <string name="summary">Summary</string>
-    <string name="contactInformation">Contact Information</string>
-    <string name="email">Email</string>
-    <string name="telephone">Telephone</string>
-    <string name="mobile">Mobile</string>
+    <string name="my_profile">Мой профиль</string>
+    <string name="user_profile">Профиль пользователя</string>
+    <string name="work_at">%1$s в %2$s</string>
+    <string name="jobTitle">Имя должности</string>
+    <string name="location">Расположение</string>
+    <string name="summary">Общее</string>
+    <string name="contactInformation">Контактные данные</string>
+    <string name="email">E-mail</string>
+    <string name="telephone">Телефон</string>
+    <string name="mobile">Моб. телефон</string>
     <string name="skypeId">Skype</string>
     <string name="instantMessagingId">IM</string>
     <string name="instantMessaging">Instant Messaging</string>
-    <string name="googleId">Google Username</string>
-    <string name="company">Company</string>
-    <string name="companyDetails">Company Details</string>
-    <string name="companyName">Name</string>
-    <string name="companyAdress">Address</string>
-    <string name="companyPostCode">Post Code</string>
-    <string name="companyTelephone">Telephone</string>
-    <string name="companyFax">Fax</string>
-    <string name="companyEmail">Email</string>
-    <string name="call">Call</string>
+    <string name="googleId">Google</string>
+    <string name="company">Компания</string>
+    <string name="companyDetails">Информация о компании</string>
+    <string name="companyName">Название</string>
+    <string name="companyAdress">Адрес</string>
+    <string name="companyPostCode">Индекс</string>
+    <string name="companyTelephone">Телефон</string>
+    <string name="companyFax">Факс</string>
+    <string name="companyEmail">E-mail</string>
+    <string name="call">Позвонить</string>
     <string name="skype">Skype</string>
-    <string name="start_chat">Start a chat</string>
-    <string name="start_call">Start a call</string>
-    <string name="start_video_call">Start a video call</string>
-    <string name="search_person_hint">Search by name or username</string>
-    <string name="contact_add">Add Contact</string>
+    <string name="start_chat">Написать сообщение</string>
+    <string name="start_call">Позвонить</string>
+    <string name="start_video_call">Видеовызов</string>
+    <string name="search_person_hint">Поиск по имени или логину</string>
+    <string name="contact_add">Добавить контакт</string>
 
     <!-- MEMBERS -->
-    <string name="members">List of Members</string>
-    <string name="users">List of Users</string>
-    <string name="members_of">Members of %s</string>
+    <string name="members">Список участников</string>
+    <string name="users">Список пользователей</string>
+    <string name="members_of">Участник %s</string>
 
     <!-- PERSON SEARCH -->
-    <string name="person_not_found">No users found</string>
-    <string name="person_search">Search</string>
+    <string name="person_not_found">Не найдено пользователей</string>
+    <string name="person_search">Поиск</string>
 
     <!-- Activities -->
-    <string name="activity_profile">Profile of %s</string>
+    <string name="activity_profile">Профиль %s</string>
 
     <!-- Workflow -->
-    <string name="empty_tasks">No Tasks</string>
-    <string name="empty_items">No Attachments</string>
-    <string name="task_items">Attachment(s)</string>
-    <string name="workflow_start">Create a task</string>
-    <string name="task_actions">Response</string>
-    <string name="tasks">Tasks</string>
-    <string name="task_workflow">Process</string>
+    <string name="empty_tasks">Нет задач</string>
+    <string name="empty_items">Нет вложений</string>
+    <string name="task_items">Вложения</string>
+    <string name="workflow_start">Создать задачу</string>
+    <string name="task_actions">Ответ</string>
+    <string name="tasks">Задачи</string>
+    <string name="task_workflow">Прогресс</string>
 
     <!-- Workflow FILTERS -->
-    <string name="tasks_status">Tasks Status</string>
-    <string name="tasks_active">Active</string>
-    <string name="tasks_completed">Completed</string>
-    <string name="tasks_due">Due</string>
-    <string name="tasks_due_today">Today</string>
-    <string name="tasks_due_tomorrow">Tomorrow</string>
-    <string name="tasks_due_week">Next 7 days</string>
-    <string name="tasks_due_over">Overdue</string>
-    <string name="tasks_due_no_date">No Date</string>
-    <string name="tasks_priority">Priority</string>
-    <string name="tasks_priority_low">Low</string>
-    <string name="tasks_priority_medium">Medium</string>
-    <string name="tasks_priority_high">High</string>
-    <string name="tasks_assignee">Assignee</string>
-    <string name="tasks_assignee_me">Me</string>
-    <string name="tasks_assignee_all">All</string>
-    <string name="tasks_assignee_unassigned">Unassigned</string>
+    <string name="tasks_status">Статус задачи</string>
+    <string name="tasks_active">Активна</string>
+    <string name="tasks_completed">Завершено</string>
+    <string name="tasks_due">Срок исполнения</string>
+    <string name="tasks_due_today">Сегодня</string>
+    <string name="tasks_due_tomorrow">Завтра</string>
+    <string name="tasks_due_week">След. 7 дней</string>
+    <string name="tasks_due_over">Просрочено</string>
+    <string name="tasks_due_no_date">Без даты</string>
+    <string name="tasks_priority">Приоритет</string>
+    <string name="tasks_priority_low">Низкий</string>
+    <string name="tasks_priority_medium">Обычный</string>
+    <string name="tasks_priority_high">Высокий</string>
+    <string name="tasks_assignee">Назначено</string>
+    <string name="tasks_assignee_me">Я</string>
+    <string name="tasks_assignee_all">Все</string>
+    <string name="tasks_assignee_unassigned">Не назначено</string>
 
     <!-- Tasks -->
     <string name="task_filter_view">View Tasks</string>
@@ -622,7 +623,7 @@
     <string name="done">Done</string>
     <string name="task_completing">Completing Task</string>
     <string name="task_reassign">Reassign</string>
-    <string name="task_reassign_long">Reassign this task to&#8230;</string>
+    <string name="task_reassign_long">Reassign this task to…</string>
     <string name="task_claim">Claim</string>
     <string name="task_unclaim">Release to Pool</string>
     <string name="task_priority">Priority</string>
@@ -639,7 +640,7 @@
     <string name="task_filter_due_today">Tasks Due Today</string>
     <string name="task_filter_overdue">Overdue Tasks</string>
     <string name="task_filter_assigned_me">Tasks Assigned to Me</string>
-    <string name="task_filter_custom">My filter&#8230;</string>
+    <string name="task_filter_custom">My filter…</string>
 
     <!-- Process Start -->
     <string name="process_start_review">Start review</string>
@@ -656,10 +657,10 @@
     <string name="task_review_documents">Please review this content</string>
     <string name="task_assignees_plurals">{0,choice,0#No assignees|1#1 assignee|1&lt;{0} assignees}</string>
     <string name="task_assignees">Assignees</string>
-    <string name="task_assignees_selection">Select assignees&#8230;</string>
+    <string name="task_assignees_selection">Select assignees…</string>
     <string name="process_approvers_plurals">{0,choice,0#No approvers|1#1 of 1 approver|1&lt;%s of {0} approvers}</string>
     <string name="task_attachments_plurals">{0,choice,0#No attachments|1#1 attachment|1&lt;{0} attachments}</string>
-    <string name="task_attachments_selection">Select attachments&#8230;</string>
+    <string name="task_attachments_selection">Select attachments…</string>
     <string name="task_attachments">Attachments</string>
     <string name="process_no_description">(No Message)</string>
 
@@ -675,7 +676,7 @@
     <string name="task_todo_description">Assign a task to a person</string>
     <string name="task_review_approve">Review &amp; Approve</string>
     <string name="task_review_approve_description">Assign a task to one or more persons to review and approve content.</string>
-    <string name="task_delegate_in_progress">Reassign in progress&#8230;</string>
+    <string name="task_delegate_in_progress">Reassign in progress…</string>
     <string name="task_delegate_complete">Reassign completed</string>
     <string name="picker_assignees">Select assignees</string>
     <string name="picker_due_date">Select a due date</string>
@@ -764,7 +765,7 @@
 
     <!-- CUSTOM FORMS -->
     <string name="picker_selected_value">Selected %s</string>
-    <string name="picker_select_value">Add %s&#8230;</string>
+    <string name="picker_select_value">Add %s…</string>
     <string name="picker_multi_value_selected">{0,choice,0#No %2$s|1#1 %2$s|1&lt;%1$s %2$s}</string>
 
     <!-- SHORTCUT & ACTIONS -->
