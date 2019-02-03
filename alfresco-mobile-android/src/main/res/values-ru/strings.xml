@@ -106,7 +106,7 @@
     <string name="menu_browse_sites">Сайты</string>
     <string name="menu_browse_userhome">Мои файлы</string>
     <string name="menu_browse_shared">Общие файлы</string>
-    <string name="menu_browse_site_finder">Поисковик</string>
+    <string name="menu_browse_site_finder">Обозреватель сайтов</string>
     <string name="menu_browse_all_sites">Все сайты</string>
     <string name="menu_browse_my_sites">Мои сайты</string>
     <string name="menu_browse_favorite_sites">Избранные сайты</string>
@@ -225,7 +225,7 @@
 
     <!-- DATA PROTECTION -->
     <string name="data_protection">Защита информации</string>
-    <string name="data_protection_blurb"><![CDATA[<p><b>Доступна защита информации.</b><br/> Желаете включить еще? <p>  Весь скаченный контент этим приложением будет зашифрован и доступен для промотра только внутри него. ]]></string>
+    <string name="data_protection_blurb"><![CDATA[<p><b>Доступна защита информации.</b><br/> Желаете включить еще? <p> Весь скаченный контент этим приложением будет зашифрован и доступен для промотра только внутри него. ]]></string>
     <string name="decryption_failed">Ошибка дешифрования</string>
     <string name="protect_question"><![CDATA[<p><b>Установить защиту для скаченных файлов?</b><p>  Весь скаченный контент этим приложением будет зашифрован и доступен для промотра только внутри него.]]></string>
     <string name="unprotect_question"><![CDATA[<p><b>Снять защиту для скаченных файлов?</b><p> Эта операция будет применена для всех файлов скаченных этим приложением.]]></string>
@@ -286,7 +286,7 @@
     <string name="passcode_disable">выключит</string>
     <string name="passcode_change">Сменить пин-код</string>
     <string name="passcode_timeout">Срок жизни</string>
-    <string name="passcode_timeout_summary">{0,choice,0#After 0 minute|1#After 1 minute|1&lt;After {0} minutes}</string>
+    <string name="passcode_timeout_summary">{0,choice,0#Спустя 0 минут|1#Спустя 1 минуту|1&lt;Спутся {0} минут}</string>
     <string name="passcode_erase_data">Почистить данные</string>
     <string name="passcode_erase_data_summary">Почистить все данные Alfresco Content Services на этом устройстве после 10 неудачных попыток входа</string>
     <string name="passcode_edit">Введите новый пин-код</string>
@@ -607,326 +607,326 @@
     <string name="tasks_assignee_unassigned">Не назначено</string>
 
     <!-- Tasks -->
-    <string name="task_filter_view">View Tasks</string>
-    <string name="validate">Validate</string>
-    <string name="workflow_priority_low">Low priority</string>
-    <string name="workflow_priority_medium">Medium priority</string>
-    <string name="workflow_priority_high">High priority</string>
-    <string name="task_user_approved"><![CDATA[%s <b>approved the content</b>]]></string>
-    <string name="task_user_rejected"><![CDATA[%s <b>rejected the content</b>]]></string>
-    <string name="task_user_commented">and commented:</string>
-    <string name="task_user_completed"><![CDATA[%s <b>completed this task</b>]]></string>
-    <string name="task_user_not_completed"><![CDATA[%s <b>didn\'t complete this task yet</b>]]></string>
-    <string name="task_approve">Approve</string>
-    <string name="task_reject">Reject</string>
-    <string name="task_response">Response</string>
-    <string name="done">Done</string>
-    <string name="task_completing">Completing Task</string>
-    <string name="task_reassign">Reassign</string>
-    <string name="task_reassign_long">Reassign this task to…</string>
-    <string name="task_claim">Claim</string>
-    <string name="task_unclaim">Release to Pool</string>
-    <string name="task_priority">Priority</string>
-    <string name="task_type">Task Type</string>
-    <string name="task_initiator">Task Starter</string>
-    <string name="task_dueat">Due Date</string>
-    <string name="tasks_history">Tasks History</string>
+    <string name="task_filter_view">Просмотр задач</string>
+    <string name="validate">Проверка</string>
+    <string name="workflow_priority_low">Низкий приоритет</string>
+    <string name="workflow_priority_medium">Обычный приоритет</string>
+    <string name="workflow_priority_high">Высокий приоритет</string>
+    <string name="task_user_approved"><![CDATA[%s <b>дал одобрение</b>]]></string>
+    <string name="task_user_rejected"><![CDATA[%s <b>отклонил</b>]]></string>
+    <string name="task_user_commented">и прокомментировал:</string>
+    <string name="task_user_completed"><![CDATA[%s <b>завершил задачу</b>]]></string>
+    <string name="task_user_not_completed"><![CDATA[%s <b>не завершил пока задачу</b>]]></string>
+    <string name="task_approve">Одобрить</string>
+    <string name="task_reject">Отклонить</string>
+    <string name="task_response">Ответ</string>
+    <string name="done">Готово</string>
+    <string name="task_completing">Завершение задач</string>
+    <string name="task_reassign">Переназначить</string>
+    <string name="task_reassign_long">Перназначить задачу на…</string>
+    <string name="task_claim">Востребованный</string>
+    <string name="task_unclaim">Невостребованный</string>
+    <string name="task_priority">Приоритет</string>
+    <string name="task_type">Тип задачи</string>
+    <string name="task_initiator">Инициатор</string>
+    <string name="task_dueat">Срок выполнения</string>
+    <string name="tasks_history">История задач</string>
 
     <!-- Tasks Filters -->
-    <string name="task_filter_active">Active Tasks</string>
-    <string name="task_filter_initiator">Tasks I\'ve started</string>
-    <string name="task_filter_completed">Completed Tasks</string>
-    <string name="task_filter_high_priority">High Priority Tasks</string>
-    <string name="task_filter_due_today">Tasks Due Today</string>
-    <string name="task_filter_overdue">Overdue Tasks</string>
-    <string name="task_filter_assigned_me">Tasks Assigned to Me</string>
-    <string name="task_filter_custom">My filter…</string>
+    <string name="task_filter_active">Активные задачи</string>
+    <string name="task_filter_initiator">Задачи назначеные мной</string>
+    <string name="task_filter_completed">Заверщенные задачи</string>
+    <string name="task_filter_high_priority">Задачи с высоким приоритетом</string>
+    <string name="task_filter_due_today">Задачи со сроком выполнения на этот день</string>
+    <string name="task_filter_overdue">Просроченые задачи</string>
+    <string name="task_filter_assigned_me">Задачи назначенные на меня</string>
+    <string name="task_filter_custom">Мой фильтр…</string>
 
     <!-- Process Start -->
-    <string name="process_start_review">Start review</string>
-    <string name="process_choose_definition">Choose task type</string>
-    <string name="process_create_task">Create Task</string>
-    <string name="process_choose_attachments">Choose attachments</string>
-    <string name="process_start_title">Start Process</string>
-    <string name="process_title">Title</string>
-    <string name="process_title_hint">New Task Title (Required)</string>
-    <string name="process_due_on">Due on</string>
-    <string name="process_assignees">Assignees</string>
-    <string name="process_diagram">Process Diagram</string>
-    <string name="task_review_document">Please review %s</string>
-    <string name="task_review_documents">Please review this content</string>
-    <string name="task_assignees_plurals">{0,choice,0#No assignees|1#1 assignee|1&lt;{0} assignees}</string>
-    <string name="task_assignees">Assignees</string>
-    <string name="task_assignees_selection">Select assignees…</string>
-    <string name="process_approvers_plurals">{0,choice,0#No approvers|1#1 of 1 approver|1&lt;%s of {0} approvers}</string>
-    <string name="task_attachments_plurals">{0,choice,0#No attachments|1#1 attachment|1&lt;{0} attachments}</string>
-    <string name="task_attachments_selection">Select attachments…</string>
-    <string name="task_attachments">Attachments</string>
-    <string name="process_no_description">(No Message)</string>
+    <string name="process_start_review">Начать проверку</string>
+    <string name="process_choose_definition">Выберите тип задачи</string>
+    <string name="process_create_task">Создать задачу</string>
+    <string name="process_choose_attachments">Выбрать вложения</string>
+    <string name="process_start_title">Начать процесс</string>
+    <string name="process_title">Заголовок</string>
+    <string name="process_title_hint">Заголовок для задачи (Обязательно)</string>
+    <string name="process_due_on">Выполнить к</string>
+    <string name="process_assignees">Уполномоченный</string>
+    <string name="process_diagram">Диаграмма процесса</string>
+    <string name="task_review_document">Пожалуйста проверьте %s</string>
+    <string name="task_review_documents">Пожалуйста проверьте содержимое</string>
+    <string name="task_assignees_plurals">{0,choice,0#Нет исполнителей|1#1 исполнитель|1&lt;{0} исполнителей}</string>
+    <string name="task_assignees">Назначить на</string>
+    <string name="task_assignees_selection">Выберите исполнителей…</string>
+    <string name="process_approvers_plurals">{0,choice,0#Нет рецензентов|1#1 из 1 рецензентов|1&lt;%s of {0} из рецензентов}</string>
+    <string name="task_attachments_plurals">{0,choice,0#Нет вложений|1#1 вложение|1&lt;{0} вложений}</string>
+    <string name="task_attachments_selection">Выберите вложения…</string>
+    <string name="task_attachments">Вложения</string>
+    <string name="process_no_description">(Нет описания)</string>
 
-    <string name="process_attachments">Attachments</string>
-    <string name="process_no_attachments">No content attached</string>
-    <string name="process_priority">Priority</string>
-    <string name="process_notification">Email notification</string>
-    <string name="process_approvers">Approvers</string>
-    <string name="process_no_approvers">No Approvers</string>
-    <string name="process_starting">Starting Process</string>
-    <string name="task_create">Create Task</string>
-    <string name="task_todo">Todo</string>
-    <string name="task_todo_description">Assign a task to a person</string>
-    <string name="task_review_approve">Review &amp; Approve</string>
-    <string name="task_review_approve_description">Assign a task to one or more persons to review and approve content.</string>
-    <string name="task_delegate_in_progress">Reassign in progress…</string>
-    <string name="task_delegate_complete">Reassign completed</string>
-    <string name="picker_assignees">Select assignees</string>
-    <string name="picker_due_date">Select a due date</string>
-    <string name="picker_attachments">Select attachments</string>
-    <string name="action_remove_approvers">Remove one approver</string>
-    <string name="action_add_approvers">Add one approver</string>
+    <string name="process_attachments">Вложения</string>
+    <string name="process_no_attachments">Нет вложений</string>
+    <string name="process_priority">Приоритет</string>
+    <string name="process_notification">Email уведомления</string>
+    <string name="process_approvers">Рецензенты</string>
+    <string name="process_no_approvers">Нет рецензентов</string>
+    <string name="process_starting">Начало процесса</string>
+    <string name="task_create">Создать задачу</string>
+    <string name="task_todo">Список задач</string>
+    <string name="task_todo_description">Назначить исполнителя</string>
+    <string name="task_review_approve">Проверить и одобрить</string>
+    <string name="task_review_approve_description">Назначить задачу на одного или нескольких исполнителей, чтобы проверить содержимое.</string>
+    <string name="task_delegate_in_progress">Переназначение в процессе…</string>
+    <string name="task_delegate_complete">Переназначение завершено</string>
+    <string name="picker_assignees">Выберите исполнителя</string>
+    <string name="picker_due_date">Выберите срок сдачи</string>
+    <string name="picker_attachments">Выберите вложение</string>
+    <string name="action_remove_approvers">Удалить рецензента</string>
+    <string name="action_add_approvers">Добавить рецензента</string>
 
 
     <!-- PROCESS NAME -->
-    <string name="process_adhoc">Adhoc Workflow</string>
-    <string name="process_parallel_review">Parallel Review and Approve</string>
-    <string name="process_review">Review and Approve</string>
-    <string name="process_pooled_review">Pooled Review and Approve</string>
+    <string name="process_adhoc">Варианты исполнения</string>
+    <string name="process_parallel_review">Паралельная проверка и одобрение</string>
+    <string name="process_review">Проверка и одобрение</string>
+    <string name="process_pooled_review">Объединенная проверка и одобрение</string>
 
     <!-- AGGREGATOR SEARCH -->
-    <string name="search">Search</string>
-    <string name="search_person">People</string>
-    <string name="search_documents">Files</string>
-    <string name="search_folders">Folders</string>
-    <string name="search_site">Site</string>
-    <string name="search_advanced">Advanced Search</string>
+    <string name="search">Поиск</string>
+    <string name="search_person">Люди</string>
+    <string name="search_documents">Файлы</string>
+    <string name="search_folders">Папки</string>
+    <string name="search_site">Сайты</string>
+    <string name="search_advanced">Продвинутый поиск</string>
 
     <!-- DOCUMENT PICKER -->
-    <string name="picker_document_title">Select attachments</string>
-    <string name="picker_assign_person">{0,choice,0#Assign|1#Assign 1 person|1&lt;Assign {0} people}</string>
-    <string name="picker_attach_document">{0,choice,0#Attach|1#Attach 1 file|1&lt;Attach {0} files}</string>
+    <string name="picker_document_title">Выберите вложения </string>
+    <string name="picker_assign_person">{0,choice,0#Назначено|1#Назначен 1 пользователь|1&lt;Назначено {0} пользователей}</string>
+    <string name="picker_attach_document">{0,choice,0#Прикреплено|1#Прикреплен 1 файл|1&lt;Прикреплено {0} файлов}</string>
 
     <!-- DISLAY VIEWS ITEMS -->
-    <string name="display_gallery">Display Gallery</string>
+    <string name="display_gallery">Отобразить галерею</string>
 
     <!-- Metadata RESTRICTABLE -->
-    <string name="metadata_aspect_restrictable">Restrictable</string>
-    <string name="metadata_prop_offline_expires_after">Offline Expires After (hours)</string>
+    <string name="metadata_aspect_restrictable">Ограничения</string>
+    <string name="metadata_prop_offline_expires_after">Автономный доступ истекает через (часов)</string>
 
     <!-- Advanced Search -->
-    <string name="search_title">Search: %s</string>
-    <string name="clear">Clear</string>
-    <string name="metadata_type">Type</string>
-    <string name="metadata_modified_by">Modified by</string>
-    <string name="modified_by">By</string>
-    <string name="metadata_modification_date">Last Modification</string>
-    <string name="metadata_modification_date_from">From</string>
-    <string name="metadata_modification_date_to">To</string>
-    <string name="search_name">Name or Username</string>
-    <string name="mimetype_unknown">Unknown</string>
-    <string name="mimetype_documents">Documents</string>
-    <string name="mimetype_presentations">Presentations</string>
-    <string name="mimetype_spreadsheets">Spreadsheets</string>
-    <string name="mimetype_images">Images</string>
-    <string name="mimetype_videos">Videos</string>
-    <string name="mimetype_music">Music</string>
-    <string name="mimetype_text">Text</string>
-    <string name="error_search_fields_empty">Complete at least one field</string>
-    <string name="picker_user">Select a person</string>
-    <string name="picker_date_from">Select a date from</string>
-    <string name="picker_date_to">Select a date to</string>
+    <string name="search_title">Поиск: %s</string>
+    <string name="clear">Очистить</string>
+    <string name="metadata_type">Тип</string>
+    <string name="metadata_modified_by">Отредактировано</string>
+    <string name="modified_by"></string>
+    <string name="metadata_modification_date">Последнее изменение</string>
+    <string name="metadata_modification_date_from">От</string>
+    <string name="metadata_modification_date_to">До</string>
+    <string name="search_name">Имя или логин</string>
+    <string name="mimetype_unknown">Неизвестно</string>
+    <string name="mimetype_documents">Документы</string>
+    <string name="mimetype_presentations">Презентации</string>
+    <string name="mimetype_spreadsheets">Таблицы</string>
+    <string name="mimetype_images">Изображения</string>
+    <string name="mimetype_videos">Видео</string>
+    <string name="mimetype_music">Музыка</string>
+    <string name="mimetype_text">Текст</string>
+    <string name="error_search_fields_empty">Заполните хотя бы 1 поле</string>
+    <string name="picker_user">Выберите пользователя</string>
+    <string name="picker_date_from">Выберите дату От</string>
+    <string name="picker_date_to">Выберите дату До</string>
 
 
     <!-- Storage Access Framework -->
-    <string name="menu_browse_sync_content_folder">Synced Content</string>
-    <string name="menu_browse_favorites_folder">Favorites Folder</string>
+    <string name="menu_browse_sync_content_folder">Сихронизированное содержимое</string>
+    <string name="menu_browse_favorites_folder">Избранные папки</string>
     <string name="account_alfresco">Content Services</string>
     <string name="account_alfresco_cloud">Content Services in the Cloud</string>
     <string name="account_alfresco_onpremise">Content Services</string>
 
 
     <!-- Accessibility -->
-    <string name="mime_folder">Folder</string>
-    <string name="mime_document">Document</string>
-    <string name="more_options_folder">More options for folder %s</string>
-    <string name="more_options_file">More options for file %s</string>
-    <string name="more_options_favorite">More options for %s</string>
-    <string name="mime_site">Site</string>
-    <string name="more_options_site">More options for site %s</string>
-    <string name="navigation_drawer_description">Alfresco Content Services: Open Navigation Drawer</string>
-    <string name="metadata_modified">Modified </string>
-    <string name="metadata_created_by">Created by %s</string>
-    <string name="metadata_size">Size </string>
-    <string name="contact_card">Open contact card for %s </string>
-    <string name="add_comment">Send a comment</string>
-    <string name="advanced_search_hint">Advanced Search Button</string>
-    <string name="add_menu">Add to this folder</string>
+    <string name="mime_folder">Папка</string>
+    <string name="mime_document">Документ</string>
+    <string name="more_options_folder">Больше опций для папки %s</string>
+    <string name="more_options_file">Больше опций для файла %s</string>
+    <string name="more_options_favorite">Больше опций для %s</string>
+    <string name="mime_site">Сайт</string>
+    <string name="more_options_site">Больше опций для сайта %s</string>
+    <string name="navigation_drawer_description">Alfresco Content Services: Открыть меню навигации</string>
+    <string name="metadata_modified">Отредактировано </string>
+    <string name="metadata_created_by">Создано %s</string>
+    <string name="metadata_size">Размер </string>
+    <string name="contact_card">Открыть карточку %s </string>
+    <string name="add_comment">Оставить комментарий</string>
+    <string name="advanced_search_hint">Кнопка продвинутого поиска</string>
+    <string name="add_menu">Добавить в эту папку</string>
 
-    <string name="multi_selection_enable">Multiselection</string>
-    <string name="create_content_type">Type</string>
+    <string name="multi_selection_enable">Множественный выбор</string>
+    <string name="create_content_type">Тип</string>
 
     <!-- CUSTOM FORMS -->
-    <string name="picker_selected_value">Selected %s</string>
-    <string name="picker_select_value">Add %s…</string>
-    <string name="picker_multi_value_selected">{0,choice,0#No %2$s|1#1 %2$s|1&lt;%1$s %2$s}</string>
+    <string name="picker_selected_value">Выбрано %s</string>
+    <string name="picker_select_value">Добавить %s…</string>
+    <string name="picker_multi_value_selected">{0,choice,0#Ни одного %2$s|1#1 %2$s|1&lt;%1$s %2$s}</string>
 
     <!-- SHORTCUT & ACTIONS -->
-    <string name="select_folder">Select</string>
-    <string name="shortcut_actions_title">Create</string>
-    <string name="shortcut_title">Shortcut</string>
-    <string name="shortcut_create">Create shortcut to...</string>
-    <string name="shortcut_action_create">Define your action...</string>
-    <string name="action_associated">Actions associated</string>
-    <string name="action_photo">Take photo</string>
-    <string name="action_text">Write text</string>
-    <string name="action_speech2text">Speech to text</string>
+    <string name="select_folder">Выбрать</string>
+    <string name="shortcut_actions_title">Создать</string>
+    <string name="shortcut_title">Закладка</string>
+    <string name="shortcut_create">Создать закладку…</string>
+    <string name="shortcut_action_create">Определите ваше действие…</string>
+    <string name="action_associated">Действие ассоциировано</string>
+    <string name="action_photo">Сделать фото</string>
+    <string name="action_text">написать текст</string>
+    <string name="action_speech2text">Преобразовать речь в текст</string>
 
-    <string name="mdm_managed">Managed by your IT Team</string>
-    <string name="mdm_loading_configuration">Loading configuration...</string>
-    <string name="sign_in">Sign in</string>
+    <string name="mdm_managed">Управлется политикой организации</string>
+    <string name="mdm_loading_configuration">Загрузка конфигурации…</string>
+    <string name="sign_in">Зарегистрироватся</string>
     <string name="error_mdm_loading_configuration"><![CDATA[<p><b>Your application configuration seems to have an issue.</b><br/> If the problem persists contact your IT Team.</p> <br/> Error : %s]]></string>
-    <string name="discardbutton">Discard</string>
-    <string name="filename_error_character">Invalid file name</string>
-    <string name="my_tasks">My Tasks</string>
-    <string name="waiting_operations">Please wait</string>
-    <string name="shortcut_alfresco">Content</string>
+    <string name="discardbutton">Отменить</string>
+    <string name="filename_error_character">Неправильно имя файла</string>
+    <string name="my_tasks">Мои задачи</string>
+    <string name="waiting_operations">Пожалуйста подождите</string>
+    <string name="shortcut_alfresco">Контент</string>
     <string name="error_offline"><![CDATA[<p><b>Help can\'t be accessed because you\'re offline.</b><br/></p> Please try again when you\'re back online.]]></string>
-    <string name="feature_disable">This feature isn\'t supported or has been turned off on your device.</string>
+    <string name="feature_disable">Эта операция не доступна или отключена на вашем устройстве.</string>
 
     <!-- ANDROID FOR WORK -->
     <!-- AlfrescoUserName restriction -->
-    <string name="title_alfresco_username">Username</string>
-    <string name="description_alfresco_username">User name used to connect to Content Services</string>
+    <string name="title_alfresco_username">Логин</string>
+    <string name="description_alfresco_username">Логин для подключения к Content Services</string>
     <!-- AlfrescoRepositoryURL restriction -->
     <string name="title_alfresco_repository_url">Repository URL</string>
-    <string name="description_alfresco_repository_url">Repository to connect to</string>
+    <string name="description_alfresco_repository_url">Адрес сервера Repository</string>
     <!-- AlfrescoShareURL restriction -->
-    <string name="title_alfresco_share_url">Alfresco Share URL</string>
-    <string name="description_alfresco_share_url">Alfresco Share server to connect to</string>
+    <string name="title_alfresco_share_url">Alfresco URL</string>
+    <string name="description_alfresco_share_url">Адрес сервера Alfresco Share</string>
     <!-- AlfrescoDisplayName restriction -->
-    <string name="title_alfresco_display_name">Account Display Name</string>
-    <string name="description_alfresco_display_name">Name of the server associated to the repository.</string>
-    <string name="default_alfresco_display_name">Content Services</string>
+    <string name="title_alfresco_display_name">Название для аккаунта</string>
+    <string name="description_alfresco_display_name">Имя для сервера Repository.</string>
+    <string name="default_alfresco_display_name">Alfresco</string>
 
 
     <!-- Empty -->
-    <string name="nodebrowser_empty_ro_title">This folder is empty</string>
+    <string name="nodebrowser_empty_ro_title">Пусто</string>
     <string name="nodebrowser_empty_rw_title">@string/nodebrowser_empty_ro_title</string>
-    <string name="nodebrowser_empty_rw_description">Use + to add files to this folder.</string>
-    <string name="favorites_empty_title">No favorites found</string>
-    <string name="favorites_empty_description">You can favorite files and folders for quick access.</string>
-    <string name="sites_my_empty_title">You haven\'t joined any sites yet</string>
-    <string name="sites_my_empty_description">Look at Site Finder to find sites you can join.</string>
-    <string name="sites_favorites_empty_title">No favorites found</string>
-    <string name="sites_favorites_empty_description">You can favorite sites for quick access.</string>
-    <string name="sites_search_empty_title">No sites found</string>
-    <string name="sites_search_empty_description">Try using a different search term.</string>
-    <string name="tasks_list_empty_title">You don\'t have any tasks right now</string>
-    <string name="tasks_list_empty_description">Create a task for yourself or assign it to someone else.</string>
-    <string name="activities_list_empty_title">There are no activities to show</string>
-    <string name="activities_list_empty_description">Join sites and you’ll see your colleagues activities.</string>
-    <string name="node_search_empty_title">No results found</string>
-    <string name="node_search_empty_description">Try using a different search term.</string>
-    <string name="people_search_empty_title">No users found</string>
-    <string name="people_search_empty_description">Try using a different search term.</string>
+    <string name="nodebrowser_empty_rw_description">Нажмите + чтобы добавить файл в эту папку.</string>
+    <string name="favorites_empty_title">Пусто</string>
+    <string name="favorites_empty_description">Вы можете добавлять файлы и папки для быстрого доступа к ним.</string>
+    <string name="sites_my_empty_title">Вы еще не присоединлись ни к одному сайту</string>
+    <string name="sites_my_empty_description">Загляните в обозреватель сайтов для того, чтобы найти сайт и присоединится к нему</string>
+    <string name="sites_favorites_empty_title">Пусто</string>
+    <string name="sites_favorites_empty_description">Вы можете добавить сайт в избранное для быстрого доступа к нему.</string>
+    <string name="sites_search_empty_title">Пусто</string>
+    <string name="sites_search_empty_description">Пробуйте разные ключевые слова</string>
+    <string name="tasks_list_empty_title">Пусто</string>
+    <string name="tasks_list_empty_description">Создайте задачу или назначьте ее на кого-нибудь</string>
+    <string name="activities_list_empty_title">Пусто</string>
+    <string name="activities_list_empty_description">Присоединитесь к сайту и смотрите чем заняты ваши коллеги</string>
+    <string name="node_search_empty_title">Пусто</string>
+    <string name="node_search_empty_description">Пробуйте разные ключевые слова</string>
+    <string name="people_search_empty_title">Пусто</string>
+    <string name="people_search_empty_description">Пробуйте разные ключевые слова</string>
 
 
-    <string name="empty_site">No sites available</string>
-    <string name="empty_version">No version history available</string>
-    <string name="empty_session">No session available</string>
-    <string name="empty_actvity">No activity found</string>
-    <string name="empty_tag">No tag found</string>
-    <string name="empty_comment">No comments found</string>
-    <string name="empty_search">No files found</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="node.details.file.not.found">No file found</string>
-    <string name="node.browser.folder.not.found">No folder found</string>
-    <string name="user.details.user.not.found">No user found</string>
-    <string name="public.url.wrong.format">Link not recognized. Try contacting your IT Team</string>
-    <string name="public.url.tasks.missing.filter">Filter information is missing. Try contacting your IT Team</string>
-    <string name="public.url.file.missing.id">ID information is missing. Try contacting your IT Team</string>
-    <string name="public.url.noderef.format">NodeRef information issue. Try contacting your IT Team</string>
+    <string name="empty_site">Нет доступных сайтов</string>
+    <string name="empty_version">Нет  версий</string>
+    <string name="empty_session">Нет сессий</string>
+    <string name="empty_actvity">Нет активностей</string>
+    <string name="empty_tag">Нет тегов</string>
+    <string name="empty_comment">Нет комментариев</string>
+    <string name="empty_search">Нет файлов</string>
+    <string name="action_sign_in_short">Зарегистрироваться</string>
+    <string name="node.details.file.not.found">Файл не найден</string>
+    <string name="node.browser.folder.not.found">Папка не найдена</string>
+    <string name="user.details.user.not.found">Пользователь не найден</string>
+    <string name="public.url.wrong.format">Ссылка не доступна</string>
+    <string name="public.url.tasks.missing.filter">Нет информации по фильтру</string>
+    <string name="public.url.file.missing.id">Нет информации по дентификатору</string>
+    <string name="public.url.noderef.format">Нет информации по узлу</string>
 
 
     <!-- ACCOUNTS SELECTION -->
-    <string name="accounts.title.select">Select an account</string>
-    <string name="accounts.not.found">No accounts found. Try adding one.</string>
+    <string name="accounts.title.select">Выберите аккаунт</string>
+    <string name="accounts.not.found">Не найдено аккаунтов</string>
 
 
     <!-- DATA PROTECTION -->
-    <string name="general_login_data_protection_title">Data Protection is available</string>
-    <string name="general_login_data_protection_description">All content downloaded from Alfresco Content Services accounts will be encrypted, and can only be viewed from within the Alfresco Content Services app.</string>
+    <string name="general_login_data_protection_title">Защита данных доступна</string>
+    <string name="general_login_data_protection_description">Весь скаченный контент этим приложением будет зашифрован и доступен для промотра только внутри него</string>
 
     <!-- ERRORS -->
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="error_invalid_url">This connection is invalid</string>
+    <string name="error_invalid_email">Не правильный email</string>
+    <string name="error_invalid_password">Пароль слишком короткий</string>
+    <string name="error_incorrect_password">Неверный пароль</string>
+    <string name="error_field_required">Это поле обязательно к заполнению</string>
+    <string name="error_invalid_url">Соединение неудалось</string>
 
 
     <!-- CONFIG VALUES -->
-    <string name="config_view_config_editor">Displays Menu Configuration Editor.</string>
-    <string name="config_view_activities">Displays user\'s activities.</string>
-    <string name="config_view_people">Displays a list of users.</string>
-    <string name="config_view_person_profile">Displays person profile details.</string>
-    <string name="config_view_local">Displays a list of most important local folders available inside the device.</string>
-    <string name="config_view_local_files">Displays files local to the client.</string>
-    <string name="config_view_search">Displays a search view.</string>
-    <string name="config_view_search_advanced">Displays an advanced search view.</string>
-    <string name="config_view_site_browser">Displays a sites view.</string>
-    <string name="config_view_sites">Displays a list of sites.</string>
-    <string name="config_view_document_details">Displays the details of a file.</string>
-    <string name="config_view_folder_details">Displays the details of a folder or file.</string>
-    <string name="config_view_repository">Displays a folder from the repository.</string>
-    <string name="config_view_repository_search">Displays a list of nodes based on a query.</string>
-    <string name="config_view_tasks">Displays a list of tasks.</string>
-    <string name="config_view_favorites">Displays list of favorite files and folders.</string>
-    <string name="config_view_sync">Displays list of synced content.</string>
+    <string name="config_view_config_editor">Отображает редактор конфигурации меню.</string>
+    <string name="config_view_activities">Отображает действия пользователя.</string>
+    <string name="config_view_people">Отображает список пользователей.</string>
+    <string name="config_view_person_profile">Отображает детали профиля человека.</string>
+    <string name="config_view_local">Отображает список наиболее важных локальных папок, доступных внутри устройства.</string>
+    <string name="config_view_local_files">Отображает файлы локально для клиента.</string>
+    <string name="config_view_search">Отображает вид поиска.</string>
+    <string name="config_view_search_advanced">Отображает расширенный вид поиска.</string>
+    <string name="config_view_site_browser">Отображает вид сайтов.</string>
+    <string name="config_view_sites">Отображает список сайтов.</string>
+    <string name="config_view_document_details">Отображение сведений о файле.</string>
+    <string name="config_view_folder_details">Отображение сведений о папке или файле.</string>
+    <string name="config_view_repository">Отображает папку из хранилища.</string>
+    <string name="config_view_repository_search">Отображает список узлов на основе запроса.</string>
+    <string name="config_view_tasks">Отображает список задач.</string>
+    <string name="config_view_favorites">Отображает список избранных файлов и папок.</string>
+    <string name="config_view_sync">Отображает список синхронизированного контента.</string>
 
-    <string name="config_view_activities_username">Displays activities stream for a specific user.</string>
-    <string name="config_view_activities_siteshortname">Displays activities stream for a specific site.</string>
-    <string name="config_view_people_keywords">Displays a search view for users with the matching keywords.</string>
-    <string name="config_view_people_siteshortname">Displays list of members for a specific site.</string>
-    <string name="config_view_people_path">Absolute path to the specified folder.</string>
-    <string name="config_view_people_shortcut">Display Up path selector.</string>
-    <string name="config_view_person_profile_username">Displays the profile for the specified username.</string>
-    <string name="config_view_advanced_search_type">Values: person|file|folder.</string>
-    <string name="config_view_sites_show">Values: favorites|my|all|finder.</string>
-    <string name="config_view_sites_keywords">keywords to search</string>
-    <string name="config_view_doc_details_path">Absolute path to the specified file</string>
-    <string name="config_view_doc_details_noderef">NodeRef associated to a file</string>
-    <string name="config_view_folder_details_path">Absolute path to the specified folder</string>
-    <string name="config_view_folder_details_noderef">NodeRef associated to a folder</string>
-    <string name="config_view_repository_path">Displays a folder defined by its absolute path</string>
-    <string name="config_view_repository_noderef">Displays a folder retrieved by its nodeRef</string>
-    <string name="config_view_repository_siteShortName">Displays the document library folder associated to the specified site</string>
-    <string name="config_view_repository_folderTypeId">Displays the system folder shared|userhome</string>
-    <string name="config_view_repository_search_keywords">keywords to search</string>
-    <string name="config_view_repository_search_isExact">Requires : keywords</string>
-    <string name="config_view_repository_search_fullText">Requires : keywords</string>
-    <string name="config_view_repository_search_searchFolderOnly">Requires : keywords</string>
-    <string name="config_view_repository_search_statement">CMIS query</string>
+    <string name="config_view_activities_username">Отображает поток действий для конкретного пользователя.</string>
+    <string name="config_view_activities_siteshortname">Отображает поток действий для определенного сайта.</string>
+    <string name="config_view_people_keywords">Отображает вид поиска для пользователей с соответствующими ключевыми словами.</string>
+    <string name="config_view_people_siteshortname">Отображает список участников для определенного сайта.</string>
+    <string name="config_view_people_path">Абсолютный путь к указанной папке.</string>
+    <string name="config_view_people_shortcut">Селекторный путь вверх.</string>
+    <string name="config_view_person_profile_username">Отображает профиль для указанного имени пользователя.</string>
+    <string name="config_view_advanced_search_type">Значения: персона | файл | папка.</string>
+    <string name="config_view_sites_show">Значения: избранное | мой | все | искатель.</string>
+    <string name="config_view_sites_keywords">ключевые слова для поиска</string>
+    <string name="config_view_doc_details_path">Абсолютный путь к указанному файлу</string>
+    <string name="config_view_doc_details_noderef">NodeRef, связанный с файлом</string>
+    <string name="config_view_folder_details_path">Абсолютный путь к указанной папке</string>
+    <string name="config_view_folder_details_noderef">NodeRef, связанный с папкой</string>
+    <string name="config_view_repository_path">Отображает папку, определенную по ее абсолютному пути</string>
+    <string name="config_view_repository_noderef">Отображает папку, извлеченную ее nodeRef</string>
+    <string name="config_view_repository_siteShortName">Отображает папку библиотеки документов, связанную с указанным сайтом</string>
+    <string name="config_view_repository_folderTypeId">Отображает системную папку shared | userhome</string>
+    <string name="config_view_repository_search_keywords">ключевые слова для поиска</string>
+    <string name="config_view_repository_search_isExact">Требуется: ключевые слова</string>
+    <string name="config_view_repository_search_fullText">Требуется: ключевые слова</string>
+    <string name="config_view_repository_search_searchFolderOnly">Требуется: ключевые слова</string>
+    <string name="config_view_repository_search_statement">Запрос CMIS</string>
 
     <!-- FORM -->
     <!-- ################################################################################## -->
-    <string name="form_message_title">Form</string>
-    <string name="form_default_outcome_complete">Complete</string>
-    <string name="form_default_outcome_start_process">Start process</string>
-    <string name="form_message_empty">(None)</string>
-    <string name="form_error_message_required">%s is required</string>
-    <string name="form_message_validation">Some fields are required.</string>
-    <string name="form_message_unsupported_field_summary">Rendition Unsupported</string>
-    <string name="form_message_unsupported_field">This type of entry field is not supported on mobile</string>
-    <string name="form_message_unsupported_title">Unsupported Form</string>
-    <string name="form_message_unsupported_description"><![CDATA[<p>This form contains one or more required fields that are not currently supported on mobile devices.</p> Please use the web app to action this step.]]></string>
-    <string name="form_message_link_error_title">Link unsupported</string>
-    <string name="form_message_link_error"><![CDATA[<p>This content is not from a supported source of content.</p> Please select another one.]]></string>
+    <string name="form_message_title">Форма</string>
+    <string name="form_default_outcome_complete">Завершено</string>
+    <string name="form_default_outcome_start_process">Начать процесс</string>
+    <string name="form_message_empty">(Пусто)</string>
+    <string name="form_error_message_required">%s обязательно  к заполнению</string>
+    <string name="form_message_validation">Некоторые поля обязательны к заполнению.</string>
+    <string name="form_message_unsupported_field_summary">Неподдерживаемый тип</string>
+    <string name="form_message_unsupported_field">Содержимое этого поля не поддерживается на устройстве</string>
+    <string name="form_message_unsupported_title">Неподдерживаемая форма</string>
+    <string name="form_message_unsupported_description"><![CDATA[<p>Эта форма содержит одно или несколько обязательных полей, которые в настоящее время не поддерживаются на мобильных устройствах. </p> Пожалуйста, используйте веб-приложение для выполнения этого шага.]]></string>
+    <string name="form_message_link_error_title">Ссылка не поддерживается</string>
+    <string name="form_message_link_error"><![CDATA[Этот контент из не поддерживаемого источника.</p> Пожалуйста, выберите другой.]]></string>
 
 
-    <string name="open_in_alfresco_editor">Open in Text Editor</string>
+    <string name="open_in_alfresco_editor">Открыть в текстовом редакторе</string>
 
     <!-- PERMISSION -->
     <!-- ################################################################################## -->
-    <string name="permission.not.enough">Not enough permission to access the file.</string>
+    <string name="permission.not.enough">Не достаточно привилегий для доступа к файлу</string>
 
 
     <!--TO BE REMOVED LATER ON-->
