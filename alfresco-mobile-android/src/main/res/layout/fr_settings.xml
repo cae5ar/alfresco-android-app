@@ -268,7 +268,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/primary_background"
                 android:padding="@dimen/d_16"
-                android:text="Dev Tools"
+                android:text="Инструменты разработчика"
                 android:textColor="@color/secondary_text" />
 
             <View

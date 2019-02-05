@@ -145,17 +145,6 @@ public class GeneralPreferences extends AlfrescoFragment
             }
         });
 
-        if (DevToolsManager.getInstance(getActivity()) != null)
-        {
-            show(R.id.settings_dev_tools_container);
-            DevToolsManager.getInstance(getActivity()).generateMenu(getActivity(),
-                    (ViewGroup) viewById(R.id.settings_dev_tools_items));
-        }
-        else
-        {
-            hide(R.id.settings_dev_tools_container);
-        }
-
         recreate();
 
         return getRootView();

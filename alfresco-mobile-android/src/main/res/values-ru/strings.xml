@@ -40,8 +40,8 @@
     <string name="general_login_check_server">Проверка сервера</string>
 
     <string name="settings_userinfo">Аккаунт</string>
-    <string name="settings_userinfo_account">Подробнее</string>
-    <string name="settings_userinfo_account_summary">Редактировать</string>
+    <string name="settings_userinfo_account">Учетные данные</string>
+    <string name="settings_userinfo_account_summary">Редактировать данные аккаунта</string>
     <string name="settings_userinfo_account_name">Название</string>
     <string name="settings_userinfo_account_name_summary">Редактировать название аккаунта</string>
     <string name="settings_account">Настройки аккаунта</string>
@@ -278,12 +278,12 @@
     <string name="data_protection_on">Защита данных включена</string>
 
     <!-- PIN Code -->
-    <string name="passcode_title">Введите пин-код</string>
+    <string name="passcode_title">Доступ через пин-код</string>
     <string name="passcode_admin_title">Ваша организация требует обязательной установки пин кода</string>
     <string name="passcode_enable_title">Включить доступ по пин-коду</string>
     <string name="passcode_preference">Настройки пин-кода</string>
-    <string name="passcode_enable">Включить</string>
-    <string name="passcode_disable">выключит</string>
+    <string name="passcode_enable">Включен</string>
+    <string name="passcode_disable">Выключен</string>
     <string name="passcode_change">Сменить пин-код</string>
     <string name="passcode_timeout">Срок жизни</string>
     <string name="passcode_timeout_summary">{0,choice,0#Спустя 0 минут|1#Спустя 1 минуту|1&lt;Спутся {0} минут}</string>
@@ -346,7 +346,7 @@
     <string name="settings_custom_menu_manage">Меню</string>
     <string name="settings_custom_menu_disable">Для вашей организации эта функция недоступна.</string>
     <string name="settings.feedback">Отзыв</string>
-    <string name="settings.feedback.diagnostic">Отправить отчет</string>
+    <string name="settings.feedback.diagnostic">Отправлять отчет</string>
     <string name="settings.feedback.diagnostic.summary">Чтобы улучшить наше приложение мы собираем анонимную статистику работы нашего приложения.</string>
     <string name="settings.feedback.email">Оставить отзыв</string>
 
@@ -510,7 +510,7 @@
     <string name="shortcut_library_images">Изображения</string>
     <string name="shortcut_library_videos">Видео</string>
     <string name="shortcut_library_audios">Музыка</string>
-    <string name="shortcut_library_office">Офис</string>
+    <string name="shortcut_library_office">Документы</string>
     <string name="shortcut_local">На устройстве</string>
     <string name="shortcut_local_downloads">Загрузки</string>
     <string name="shortcut_local_sdcard">SD Card</string>
@@ -812,7 +812,7 @@
     <string name="nodebrowser_empty_rw_title">@string/nodebrowser_empty_ro_title</string>
     <string name="nodebrowser_empty_rw_description">Нажмите + чтобы добавить файл в эту папку.</string>
     <string name="favorites_empty_title">Пусто</string>
-    <string name="favorites_empty_description">Вы можете добавлять файлы и папки для быстрого доступа к ним.</string>
+    <string name="favorites_empty_description">Вы можете добавлять файлы и папки в избранное для быстрого доступа к ним.</string>
     <string name="sites_my_empty_title">Вы еще не присоединлись ни к одному сайту</string>
     <string name="sites_my_empty_description">Загляните в обозреватель сайтов для того, чтобы найти сайт и присоединится к нему</string>
     <string name="sites_favorites_empty_title">Пусто</string>
@@ -822,7 +822,7 @@
     <string name="tasks_list_empty_title">Пусто</string>
     <string name="tasks_list_empty_description">Создайте задачу или назначьте ее на кого-нибудь</string>
     <string name="activities_list_empty_title">Пусто</string>
-    <string name="activities_list_empty_description">Присоединитесь к сайту и смотрите чем заняты ваши коллеги</string>
+    <string name="activities_list_empty_description">Присоединитесь к сайтам и смотрите чем заняты ваши коллеги</string>
     <string name="node_search_empty_title">Пусто</string>
     <string name="node_search_empty_description">Пробуйте разные ключевые слова</string>
     <string name="people_search_empty_title">Пусто</string>
@@ -830,13 +830,13 @@
 
 
     <string name="empty_site">Нет доступных сайтов</string>
-    <string name="empty_version">Нет  версий</string>
+    <string name="empty_version">Нет версий</string>
     <string name="empty_session">Нет сессий</string>
     <string name="empty_actvity">Нет активностей</string>
     <string name="empty_tag">Нет тегов</string>
     <string name="empty_comment">Нет комментариев</string>
     <string name="empty_search">Нет файлов</string>
-    <string name="action_sign_in_short">Зарегистрироваться</string>
+    <string name="action_sign_in_short">Войти</string>
     <string name="node.details.file.not.found">Файл не найден</string>
     <string name="node.browser.folder.not.found">Папка не найдена</string>
     <string name="user.details.user.not.found">Пользователь не найден</string>

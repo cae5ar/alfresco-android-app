@@ -229,7 +229,7 @@
     <string name="search">Поиск</string>
     <string name="search_hint">Ключевое слово</string>
     <!-- Comments -->
-    <string name="comments">Комментарий</string>
+    <string name="comments">Комментарии</string>
     <string name="comment_add_hint">Введите здесь комментарий &#8230;</string>
     <!-- Actions -->
     <string name="create">Создать</string>
