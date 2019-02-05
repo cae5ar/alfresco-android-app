@@ -167,8 +167,8 @@
     <string name="docs_prefix" translatable="false" />
 
     <!-- About Message -->
-    <string name="version_number">Version</string>
-    <string name="buildnumber_version">Version: </string>
+    <string name="version_number">Версия</string>
+    <string name="buildnumber_version">Версия: </string>
     <string name="sdknumber_version">SDK: </string>
     <string name="about_description">
 <![CDATA[
