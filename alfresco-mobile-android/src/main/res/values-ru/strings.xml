@@ -189,9 +189,9 @@
 
     <!-- Delete -->
     <plurals name="delete_items">
-        <item quantity="one">Вы уверены что хотите удалить \"%s\" элемент?</item>
-        <item quantity="few">Вы уверены что хотите удалить \"%s\" элемента?</item>
-        <item quantity="many">Вы уверены что хотите удалить \"%s\" элементов?</item>
+        <item quantity="one">Подтвердите удаление %s?</item>
+        <item quantity="few">Подтвердите удаление %s элемента?</item>
+        <item quantity="many">Подтвердите удаление %s элементов?</item>
     </plurals>
 
     <string name="delete_description_data_protection">Защита данных включенаn.\n\nЕсли вы удалите этот аккаунт, ваш данные не будут защищенs.\n\nВы хотите удалить \"%s\"?</string>
