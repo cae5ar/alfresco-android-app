@@ -283,7 +283,7 @@
     <string name="passcode_enable_title">Включить доступ по пин-коду</string>
     <string name="passcode_preference">Настройки пин-кода</string>
     <string name="passcode_enable">Включен</string>
-    <string name="passcode_disable">Выключен</string>
+    <string name="passcode_disable">Отключено</string>
     <string name="passcode_change">Сменить пин-код</string>
     <string name="passcode_timeout">Срок жизни</string>
     <string name="passcode_timeout_summary">{0,choice,0#Спустя 0 минут|1#Спустя 1 минуту|1&lt;Спутся {0} минут}</string>
@@ -498,7 +498,7 @@
     <string name="operations_empty">Нет действий</string>
     <string name="select_all">Выбрать все</string>
     <string name="cancel_all">Убрать все</string>
-    <string name="dismiss_all">Отчистить выделение</string>
+    <string name="dismiss_all">Очистить выделение</string>
 
     <!-- Creation Folder -->
     <string name="create_folder_in_progress">Создание папки</string>

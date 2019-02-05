@@ -79,66 +79,6 @@
             android:layout_height="2dip"
             android:background="?android:attr/dividerVertical" />
 
-        <!-- Enterprise Settings !-->
-        <TextView
-            style="@style/AlfrescoMaterialTheme.Text.Title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/d_16"
-            android:text="@string/settings_enterprise"
-            android:textColor="@color/secondary_text" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dip"
-            android:background="?android:attr/dividerVertical" />
-
-        <!-- Enterprise Settings Content !-->
-        <LinearLayout
-            android:id="@+id/settings_enterprise"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/secondary_background"
-            android:orientation="vertical">
-
-            <!-- Data Protection !-->
-            <LinearLayout
-                android:id="@+id/settings_privatefolder_container"
-                style="@style/AlfrescoMaterialTheme.Button.BorderLess"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <include
-                    android:id="@+id/settings_privatefolder"
-                    layout="@layout/row_two_lines"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </LinearLayout>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dip"
-                android:layout_marginLeft="@dimen/d_8"
-                android:layout_marginRight="@dimen/d_8"
-                android:background="?android:attr/dividerVertical" />
-
-
-            <!-- Passcode !-->
-            <LinearLayout
-                android:id="@+id/passcode_preference_container"
-                style="@style/AlfrescoMaterialTheme.Button.BorderLess"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <include
-                    android:id="@+id/passcode_preference"
-                    layout="@layout/row_two_lines"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </LinearLayout>
-
-        </LinearLayout>
-
         <View
             android:layout_width="match_parent"
             android:layout_height="1dip"
