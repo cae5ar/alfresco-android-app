@@ -19,7 +19,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="all">
 
     <!-- Alfresco server url -->
-    <string name="ga_alfrescoUrl">http://smart-project.jelastic.regruhosting.ru/alfresco</string>
+    <string name="ga_alfrescoUrl">https://www.mysmartproject.ru/alfresco</string>
 
     <!-- Percentage of events to include in reports -->
     <string name="ga_sampleFrequency">100.0</string>

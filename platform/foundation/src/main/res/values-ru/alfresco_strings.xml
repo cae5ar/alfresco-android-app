@@ -109,7 +109,7 @@
     <string name="org_alfresco_links_link_created">​​{1} обновил ссылку {0}</string>
     <string name="org_alfresco_links_link_updated">​​{1} удалил ссылку {0}</string>
     <string name="org_alfresco_links_link_deleted">​​{1} создал datalist {0}</string>
-    <string name="org_alfresco_datalists_list_created">​​{1} обоновил datalist {0}</string>
+    <string name="org_alfresco_datalists_list_created">​​{1} оновил datalist {0}</string>
     <string name="org_alfresco_datalists_list_updated">​​{1} удалил datalist {0}</string>
     <string name="org_alfresco_datalists_list_deleted">{1} стал подписчиком {5}</string>
     <string name="org_alfresco_subscriptions_followed">{1} подписался на {2}</string>

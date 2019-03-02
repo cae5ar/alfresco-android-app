@@ -17,7 +17,7 @@
 -->
 <resources>
 
-    <string name="app_name">Datapro24</string>
+    <string name="app_name">Simpl+Smart Project</string>
     <string name="empty_accounts">Нет доступных аккаунтов</string>
 
     <!-- SIGN IN & CREATE ACCOUNT SCREEN -->
@@ -341,7 +341,7 @@
     <string name="settings_favorite_sync_summary">Включить синхронизацию для \"%s\"</string>
     <string name="settings_favorite_sync_data">Использование данных</string>
     <string name="settings_favorite_sync_data_all">Use Data Allowance for Sync.</string>
-    <string name="settings_custom_menu">Кастомизация</string>
+    <string name="settings_custom_menu">Оформление</string>
     <string name="settings_custom_menu_summary">Указать какие из вкладок будут доступны в меню.</string>
     <string name="settings_custom_menu_manage">Меню</string>
     <string name="settings_custom_menu_disable">Для вашей организации эта функция недоступна.</string>
@@ -635,7 +635,7 @@
     <!-- Tasks Filters -->
     <string name="task_filter_active">Активные задачи</string>
     <string name="task_filter_initiator">Задачи назначеные мной</string>
-    <string name="task_filter_completed">Заверщенные задачи</string>
+    <string name="task_filter_completed">Завершенные задачи</string>
     <string name="task_filter_high_priority">Задачи с высоким приоритетом</string>
     <string name="task_filter_due_today">Задачи со сроком выполнения на этот день</string>
     <string name="task_filter_overdue">Просроченые задачи</string>

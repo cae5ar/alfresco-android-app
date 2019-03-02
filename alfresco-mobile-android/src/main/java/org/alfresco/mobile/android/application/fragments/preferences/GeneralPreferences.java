@@ -133,18 +133,6 @@ public class GeneralPreferences extends AlfrescoFragment
             }
         });
 
-        // About
-        vh = HolderUtils.configure(viewById(R.id.settings_about), getString(R.string.version_number),
-                AboutFragment.getVersionNumber(getActivity()), -1);
-        viewById(R.id.settings_about_container).setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                AboutFragment.with(getActivity()).displayAsDialog();
-            }
-        });
-
         recreate();
 
         return getRootView();

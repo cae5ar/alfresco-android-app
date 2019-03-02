@@ -120,6 +120,7 @@ public class AccountServerFragment extends AlfrescoFragment
         });
 
         https = (CheckBox) viewById(R.id.signing_https);
+        https.setChecked(true);
         https.setVisibility(View.INVISIBLE);
 
         hostname = (MaterialEditText) viewById(R.id.signing_hostname);
