@@ -2,4 +2,4 @@
 
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:gravity="center"
-    android:src="@drawable/bg_alfresco_logo_light" />
+    android:src="@drawable/copy_bg_alfresco_logo_light" />

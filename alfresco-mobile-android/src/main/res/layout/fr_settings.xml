@@ -156,12 +156,14 @@
             android:background="@color/primary_background"
             android:padding="@dimen/d_16"
             android:text="@string/settings.feedback"
-            android:textColor="@color/secondary_text" />
+            android:textColor="@color/secondary_text"
+            android:visibility="gone" />
 
         <View
             android:id="@+id/settings_feedback_underline"
             android:layout_width="match_parent"
             android:layout_height="1dip"
+            android:visibility="gone"
             android:background="?android:attr/dividerVertical" />
 
         <LinearLayout
@@ -169,7 +171,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/secondary_background"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="gone">
 
             <!-- Send Feedback !-->
             <LinearLayout
@@ -190,14 +193,16 @@
                 android:layout_height="1dip"
                 android:layout_marginLeft="@dimen/d_8"
                 android:layout_marginRight="@dimen/d_8"
-                android:background="?android:attr/dividerVertical" />
+                android:background="?android:attr/dividerVertical"
+                android:visibility="gone"/>
 
             <!-- Diagnostic !-->
             <LinearLayout
                 android:id="@+id/settings_diagnostic_container"
                 style="@style/AlfrescoMaterialTheme.Button.BorderLess"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:visibility="gone">
 
                 <include
                     android:id="@+id/settings_diagnostic"
@@ -212,13 +217,15 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="2dip"
-            android:background="?android:attr/dividerVertical" />
+            android:background="?android:attr/dividerVertical"
+            android:visibility="gone"/>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="2dip"
             android:layout_marginBottom="@dimen/d_16"
-            android:background="?android:attr/dividerVertical" />
+            android:background="?android:attr/dividerVertical"
+            android:visibility="gone"/>
 
         <LinearLayout
             android:id="@+id/settings_dev_tools_container"

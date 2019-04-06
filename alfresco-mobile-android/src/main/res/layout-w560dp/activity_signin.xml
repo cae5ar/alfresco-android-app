@@ -34,7 +34,8 @@
             android:layout_height="match_parent"
             android:background="@color/primary"
             android:padding="@dimen/d_4"
-            android:src="@drawable/alfresco_banner_white" />
+            android:src="@drawable/alfresco_banner_white"
+            android:visibility="gone"/>
 
         <ImageButton
             android:id="@+id/signin_more_information"
@@ -43,7 +44,8 @@
             android:layout_height="match_parent"
             android:padding="@dimen/d_16"
             android:layout_gravity="center|right"
-            android:src="@drawable/ic_more_white" />
+            android:src="@drawable/ic_more_white"
+            android:visibility="gone"/>
 
     </FrameLayout>
 

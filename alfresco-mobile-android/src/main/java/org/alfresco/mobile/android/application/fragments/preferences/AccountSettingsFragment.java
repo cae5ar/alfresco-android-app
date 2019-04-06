@@ -286,12 +286,12 @@ public class AccountSettingsFragment extends AlfrescoFragment implements EditTex
         mi.setIcon(R.drawable.ic_clear_grey);
         mi.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
 
-        if (SessionManager.getInstance(getActivity()).hasSession(account.getId()))
-        {
-            mi = menu.add(Menu.NONE, R.id.my_profile, Menu.FIRST, R.string.my_profile);
-            mi.setIcon(R.drawable.ic_account_circle_grey);
-            mi.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
-        }
+//        if (SessionManager.getInstance(getActivity()).hasSession(account.getId()))
+//        {
+//            mi = menu.add(Menu.NONE, R.id.my_profile, Menu.FIRST, R.string.my_profile);
+//            mi.setIcon(R.drawable.ic_account_circle_grey);
+//            mi.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+//        }
     }
 
     @Override

@@ -17,7 +17,7 @@
 -->
 <resources>
 
-    <string name="app_name">Simpl+Smart Project</string>
+    <string name="app_name">MSP</string>
     <string name="empty_accounts">Нет доступных аккаунтов</string>
 
     <!-- SIGN IN & CREATE ACCOUNT SCREEN -->
@@ -25,7 +25,7 @@
     <string name="general_login_server_hostname">www.example.com</string>
     <string name="general_login_server_next">Продолжить</string>
     <string name="general_login_server_done">Готово</string>
-    <string name="general_login_credentials_title">Введите информацию</string>
+    <string name="general_login_credentials_title">Введите учетные данные</string>
     <string name="general_login_credentials_username">Логин</string>
     <string name="general_login_credentials_password">Пароль</string>
     <string name="general_login_credentials_show_password">Показать пароль</string>
@@ -340,7 +340,7 @@
     <string name="settings_favorite_sync">Включить синхронизацию</string>
     <string name="settings_favorite_sync_summary">Включить синхронизацию для \"%s\"</string>
     <string name="settings_favorite_sync_data">Использование данных</string>
-    <string name="settings_favorite_sync_data_all">Use Data Allowance for Sync.</string>
+    <string name="settings_favorite_sync_data_all">Синхронизировать все доступные файлы</string>
     <string name="settings_custom_menu">Оформление</string>
     <string name="settings_custom_menu_summary">Указать какие из вкладок будут доступны в меню.</string>
     <string name="settings_custom_menu_manage">Меню</string>
